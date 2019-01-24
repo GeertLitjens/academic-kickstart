@@ -4,11 +4,11 @@ widget = "projects"
 active = true
 date = 2016-04-20T00:00:00
 
-title = "Projects"
+title = "Running Projects"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 50
+weight = 5
 
 # Content.
 # Display content from the following folder.
