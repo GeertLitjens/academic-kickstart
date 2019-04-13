@@ -4,7 +4,7 @@ date = 2012-01-01
 authors = ["E. Vos", "G. Litjens", "T. Kobus", "T. Hambrock", "C. Hulsbergen van de Kaa", "H. Huisman", "T. Scheenen"]
 publication_types = ["1"]
 abstract = ""
-selected = false
+featured = false
 publication = "*ISMRM*"
 +++
 
