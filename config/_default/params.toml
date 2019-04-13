@@ -1,3 +1,11 @@
+# SITE SETUP
+
+# Color theme.
+#   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
+color_theme = 'dark'
+# Enable users to switch between day and night mode?
+day_night = false
+
 gravatar = false  # Get your avatar from Gravatar.com? (true/false)
 
 # Details for the Contact Widget
@@ -36,14 +44,6 @@ map_api_key = ""
 latitude = "37.4275"
 longitude = "-122.1697"
 zoom = 15
-
-# SITE SETUP
-
-# Color theme.
-#   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
-color_theme = "dark"
-# Enable users to switch between day and night mode?
-day_night = true
 
 # Font style.
 #   Choose from `default`, `classic`, or `playfair`.
@@ -106,7 +106,7 @@ math = false
 #
 #   For more info on the highlighting options, see:
 #   https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
-highlight = true
+highlight = false
 highlight_languages = ["python"]
 highlight_style = "github"
 
@@ -119,9 +119,11 @@ sharing = false
 privacy_pack = false
 
 # Link custom CSS and JS assets
-#   (relative to /static/css and /static/js respectively)
-custom_css = []
-custom_js  = []
+# Load CSS and JS plugins
+#   E.g. To load `/assets/css/custom.css`, set `plugins_css = ["custom"]`.
+#   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
+plugins_css = []
+plugins_js  = []
 
 # Configuration of talk pages.
 [talks]
