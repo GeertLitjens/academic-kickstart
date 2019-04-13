@@ -4,7 +4,7 @@ date = 2014-01-01
 authors = ["G. Litjens", "H. Huisman", "R. Elliott", "N. Shih", "M. Feldman", "S. Viswanath", "J. Fütterer", "J. Bomers", "A. Madabhushi"]
 publication_types = ["3"]
 abstract = ""
-selected = false
+featured = false
 publication = "*J Med Imaging*"
 +++
 
