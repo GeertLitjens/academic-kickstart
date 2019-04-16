@@ -8,7 +8,7 @@ date = 2018-01-22T00:00:00
 share = false
 
 # Project summary to display on homepage.
-summary = "Less unnecessary surgery and adjuvant therapy for prostate cancer patients through digital pathology and deep learning."
+summary = "Less unnecessary therapy for prostate cancer patients."
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
