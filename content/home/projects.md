@@ -78,3 +78,4 @@ flip_alt_rows = false
  css_class = ""
 +++
 
+This is an overview of all my running projects. A full list, including finished projects, can be found [here]({{< ref "project/_index.md" >}}).
