@@ -47,7 +47,7 @@ zoom = 15
 
 # Font style.
 #   Choose from `default`, `classic`, or `playfair`.
-font = "default"
+font = "default_small"
 
 # Description for social sharing and search engines. If undefined, author role is used in place.
 description = ""
