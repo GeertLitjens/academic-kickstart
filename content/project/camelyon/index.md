@@ -6,7 +6,7 @@ share = false
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = []
+tags = ["Active", "Challenge", "Lymph Nodes", "Metastases", "Machine Learning"]
 
 # Project summary to display on homepage.
 summary = "Detection of breast cancer metastases in lymph nodes."

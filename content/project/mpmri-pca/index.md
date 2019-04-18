@@ -1,14 +1,14 @@
 +++
-title = "ASAP"
-date = 2019-04-16T12:25:34+02:00
+title = "Mpmri Pca"
+date = 2019-04-18T11:55:45+02:00
 draft = false
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Active", "Software", "Viewer", "Open-Source"]
+tags = []
 
 # Project summary to display on homepage.
-summary = "Open source whole-slide image IO library and viewer"
+summary = ""
 
 # Slides (optional).
 #   Associate this page with Markdown slides.
@@ -19,7 +19,7 @@ summary = "Open source whole-slide image IO library and viewer"
 slides = ""
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://computationalpathologygroup.github.io/ASAP/"
+external_link = ""
 
 # Links (optional).
 url_pdf = ""
@@ -37,12 +37,9 @@ url_poster = ""
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 [image]
   # Caption (optional)
-  caption = "ASAP"
+  caption = ""
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "Smart"
-  
-  preview_only = true
+  focal_point = ""
 +++
-ASAP (Automated Slide Analysis Platform) was developed by the Computation Pathology Group, part of the Diagnostic Image Analysis Group, at the Radboud University Medical Center. It was started after frustration with the current freely available software for annotating multi-resolution digital pathology images. For more details head to the project site.

@@ -5,11 +5,11 @@ active = true
 date = 2016-04-20T00:00:00
 headless = true
 
-title = "Running Projects"
+title = "Current Projects"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 5
+weight = 2
 
 [content]
 # Display content from the following folder.
@@ -25,9 +25,9 @@ page_type = "project"
 # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instancebelow).
 filter_default = 0
 
-#[[content.filter_button]]
-#  name = "All"
-#  tag = "*"
+[[content.filter_button]]
+  name = "Active"
+  tag = "Active"
 #
 #[[content.filter_button]]
 #  name = "Deep Learning"
@@ -77,5 +77,3 @@ flip_alt_rows = false
  # CSS class.
  css_class = ""
 +++
-
-This is an overview of all my running projects. A full list, including finished projects, can be found [here]({{< ref "project/_index.md" >}}).

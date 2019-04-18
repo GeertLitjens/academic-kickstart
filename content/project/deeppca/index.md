@@ -12,7 +12,7 @@ summary = "Less unnecessary therapy for prostate cancer patients."
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Deep Learning", "Prostate Cancer", "Computational Pathology"]
+tags = ["Active", "Machine Learning", "Prostate Cancer", "Computational Pathology"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
