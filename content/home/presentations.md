@@ -5,7 +5,7 @@ active = true
 date = 2016-04-20T00:00:00
 headless = true
 
-title = "Recent & Upcoming Talks"
+title = "Recent & Upcoming Presentations"
 subtitle = ""
 
 # Order that this section will appear in.

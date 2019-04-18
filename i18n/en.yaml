@@ -96,6 +96,9 @@
 - id: more_posts
   translation: See all posts
 
+- id: more_projects
+  translation: See all projects
+
 - id: more_talks
   translation: See all talks
 
