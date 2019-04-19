@@ -7,5 +7,6 @@ abstract = "Cancer diagnosis and pharmaceutical research increasingly depend on 
 featured = false
 publication = "*in: Medical Imaging, volume 9791 of the Proceedings of the SPIE*"
 doi = "10.1117/12.2216672"
+projects = ["aahctd"]
 +++
 

@@ -7,5 +7,6 @@ abstract = "Application of deep learning algorithms to whole-slide pathology ima
 featured = false
 publication = "*JAMA*"
 doi = "10.1001/jama.2017.14585"
+projects = ["camelyon"]
 +++
 

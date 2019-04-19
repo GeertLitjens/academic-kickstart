@@ -3,7 +3,7 @@
 title = "Deep PCa"
 
 # Date this page was created.
-date = 2018-01-22T00:00:00
+date = 2016-05-01T00:00:00
 
 share = false
 
@@ -50,7 +50,7 @@ url_code = ""
 
 Most men die with, not because of prostate cancer. This high incidence-to-mortality ratio sounds like a positive trait, but comes with its own share of problems: high risk of overdiagnosis and overtreatment with significant patient morbidity. To combat overtreatment, several models have been developed to assign patients to risk categories with differing treatment regimes. Although these models show good correlation with patient outcome on the group level, their benefit for the individual patient remains limited.
 
-{{< figure src="featured.png" title="Prostate cancer segmentation using convolutional neural networks." width="90%">}}
+{{< figure src="featured.png" title="Prostate cancer segmentation using convolutional neural networks." width="50%">}}
 
 Several groups have shown that quantifying the tumour and its micro-environment at the cellular level can result in biomarkers with strong prognostic potential, for example tumour/stroma ratio, the presence and composition of immune infiltrates or the amount of proliferating (Ki67-positive) cells. However, these findings have not translated to clinical practice due to the cumbersome and subjective manual extraction of these biomarkers from tissue slides.
 

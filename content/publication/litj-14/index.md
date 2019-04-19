@@ -7,5 +7,6 @@ abstract = "Prostate MRI image segmentation has been an area of intense research
 featured = false
 publication = "*Med Image Anal*"
 doi = "10.1016/j.media.2013.12.002"
+projects = ["mpmri-pca"]
 +++
 

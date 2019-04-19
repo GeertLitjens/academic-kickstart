@@ -7,5 +7,6 @@ abstract = "Automated detection of cancer metastases in lymph nodes has the pote
 featured = false
 publication = "*IEEE Trans Med Imaging*"
 doi = "10.1109/tmi.2018.2867350"
+projects = ["camelyon"]
 +++
 

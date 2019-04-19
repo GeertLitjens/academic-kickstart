@@ -63,7 +63,7 @@ interests = [
   [[social]]
     icon = "envelope"
     icon_pack = "fas"
-    link = "#contact"  # For a direct email link, use "mailto:test@example.org".
+    link = "mailto:geert.litjens@radboudumc.nl"  # For a direct email link, use "mailto:test@example.org".
 
   [[social]]
     icon = "google-scholar"
@@ -74,6 +74,16 @@ interests = [
     icon = "github"
     icon_pack = "fab"
     link = "https://github.com/geertlitjens"
+
+  [[social]]
+    icon = "linkedin"
+    icon_pack = "fab"
+    link = "https://www.linkedin.com/in/geert-litjens/"
+
+  [[social]]
+    icon = "youtube"
+    icon_pack = "fab"
+    link = "https://www.youtube.com/channel/UCGpGmN5kDFopLoMkEavK0GA"        
 
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

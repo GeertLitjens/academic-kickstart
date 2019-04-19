@@ -7,5 +7,6 @@ abstract = "Development of CAD systems for detection of prostate cancer has been
 featured = false
 publication = "*in: Medical Imaging, volume 7963 of the Proceedings of the SPIE*"
 doi = "10.1117/12.877844"
+projects = ["mpmri-pca"]
 +++
 

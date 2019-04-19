@@ -7,5 +7,6 @@ abstract = "To investigate the added value of computer-aided diagnosis (CAD) on 
 featured = false
 publication = "*Eur Radiol*"
 doi = "10.1007/s00330-015-3743-y"
+projects = ["mpmri-pca"]
 +++
 

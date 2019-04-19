@@ -7,5 +7,6 @@ abstract = "To train deep convolutional neural networks, the input data and the 
 featured = false
 publication = "*in: Medical Imaging with Deep Learning*"
 url_pdf = "https://arxiv.org/pdf/1804.05712"
+projects = ["deeppca"]
 +++
 

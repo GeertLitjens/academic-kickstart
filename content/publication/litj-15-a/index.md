@@ -7,5 +7,6 @@ abstract = "Prostate MRI is becoming an increasingly popular imaging technique f
 featured = false
 publication = ""
 url_pdf = "http://repository.ubn.ru.nl/handle/2066/134514"
+projects = ["mpmri-pca"]
 +++
 

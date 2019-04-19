@@ -7,5 +7,6 @@ abstract = "Prostate cancer is one of the major causes of cancer death for men i
 featured = false
 publication = "*IEEE Trans Med Imaging*"
 doi = "10.1109/TMI.2014.2303821"
+projects = ["mpmri-pca"]
 +++
 

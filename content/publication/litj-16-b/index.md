@@ -8,5 +8,6 @@ featured = false
 publication = "*Radiology*"
 tags = ["Adenocarcinoma", "diagnosis/pathology/surgery; Aged; Diagnosis", "Differential; Humans; Magnetic Resonance Imaging", "methods; Male; Middle Aged; Prostatectomy; Prostatic Neoplasms", "diagnosis/pathology/surgery; Retrospective Studies"]
 doi = "10.1148/radiol.2015142856"
+projects = ["mpmri-pca"]
 +++
 

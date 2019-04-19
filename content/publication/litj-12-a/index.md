@@ -7,5 +7,6 @@ abstract = "Zonal segmentation of the prostate into the central gland and periph
 featured = false
 publication = "*in: Med Image Comput Comput Assist Interv, volume 7511 of the Lect Notes Comput Sci*"
 doi = "10.1007/978-3-642-33418-4_51"
+projects = ["mpmri-pca"]
 +++
 

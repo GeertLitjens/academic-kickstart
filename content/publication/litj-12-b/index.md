@@ -7,5 +7,6 @@ abstract = "Purpose:To determine the interpatient variability of prostate periph
 featured = false
 publication = "*Radiology*"
 doi = "10.1148/radiol.12112374"
+projects = ["mpmri-pca"]
 +++
 

@@ -7,5 +7,6 @@ abstract = "MRI has shown to have great potential in prostate cancer localizatio
 featured = false
 publication = "*in: Medical Imaging, volume 8315 of the Proceedings of the SPIE*"
 doi = "10.1117/12.911061"
+projects = ["mpmri-pca"]
 +++
 
