@@ -7,5 +7,6 @@ abstract = "Given the importance of gland morphology in grading prostate cancer 
 featured = false
 publication = "*Nat Sci Rep*"
 doi = "10.1038/s41598-018-37257-4"
+projects = ["deeppca"]
 +++
 

@@ -1,6 +1,6 @@
 +++
-title = "Camelyon"
-date = 2019-01-22T22:00:35+01:00
+title = "CAMELYON"
+date = 2016-01-22T22:00:35+01:00
 draft = false
 share = false
 
@@ -25,7 +25,7 @@ external_link = ""
 # Links (optional).
 url_pdf = ""
 url_code = ""
-url_dataset = ""
+url_dataset = "http://www.gigadb.org/dataset/100439"
 url_slides = ""
 url_video = ""
 url_poster = ""
@@ -53,7 +53,7 @@ Built on the success of its predecessor, CAMELYON17 is the second grand challeng
 
 The goal of this challenge is to evaluate new and existing algorithms for automated detection and classification of breast cancer metastases in whole-slide images of histological lymph node sections. This task has high clinical relevance and would normally require extensive microscopic assessment by pathologists. The presence of metastases in lymph nodes has therapeutic implications for breast cancer patients. Therefore, an automated solution would hold great promise to reduce the workload of pathologists while at the same time reduce the subjectivity in diagnosis.
 
-{{< figure src="featured.png" title="Detection of breast cancer metastases in lymph nodes." width="90%">}}
+{{< figure src="featured.png" title="Detection of breast cancer metastases in lymph nodes." width="50%">}}
 
 ## Task
 

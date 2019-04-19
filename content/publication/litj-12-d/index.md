@@ -6,5 +6,6 @@ publication_types = ["2"]
 abstract = ""
 featured = false
 publication = "*in: MICCAI Workshop: Prostate Cancer Imaging: The PROMISE12 Prostate Segmentation Challenge*"
+projects = ["mpmri-pca"]
 +++
 

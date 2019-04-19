@@ -8,5 +8,6 @@ featured = false
 publication = "*Oncotarget*"
 tags = ["HNSCC; MAGE; cancer-testis antigens; head and neck squamous cell carcinoma; melanoma-associated antigen"]
 doi = "10.18632/oncotarget.14830"
+projects = ["aahctd"]
 +++
 

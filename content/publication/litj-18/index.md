@@ -7,5 +7,6 @@ abstract = "Background: The presence of lymph node metastases is one of the most
 featured = false
 publication = "*Gigascience*"
 doi = "10.1093/gigascience/giy065"
+projects = ["camelyon"]
 +++
 

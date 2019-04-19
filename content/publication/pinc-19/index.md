@@ -7,5 +7,6 @@ abstract = "Prostate cancer is the most common cancer for men in Western countri
 featured = false
 publication = "*in: Medical Imaging, volume 10956 of the Proceedings of the SPIE*"
 doi = "10.1117/12.2512817"
+projects = ["deeppca"]
 +++
 

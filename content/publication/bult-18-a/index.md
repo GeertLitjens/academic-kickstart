@@ -7,5 +7,6 @@ abstract = "We propose an unsupervised method using self-clustering convolutiona
 featured = false
 publication = "*in: Medical Imaging with Deep Learning*"
 url_pdf = "https://arxiv.org/pdf/1804.07098.pdf"
+projects = ["deeppca"]
 +++
 

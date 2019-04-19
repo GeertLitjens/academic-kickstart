@@ -7,5 +7,6 @@ abstract = "Prostate cancer is generally graded by pathologists based on hematox
 featured = false
 publication = "*in: Medical Imaging, volume 10581 of the Proceedings of the SPIE*"
 doi = "10.1117/12.2292872"
+projects = ["deeppca"]
 +++
 

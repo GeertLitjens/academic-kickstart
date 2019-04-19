@@ -7,5 +7,6 @@ abstract = ""
 featured = false
 publication = "*in: Medical Imaging, volume 9036 of the Proceedings of the SPIE*"
 doi = "10.1117/12.2043819"
+projects = ["mpmri-pca"]
 +++
 

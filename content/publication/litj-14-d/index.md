@@ -6,5 +6,6 @@ publication_types = ["3"]
 abstract = ""
 featured = false
 publication = "*J Med Imaging*"
+projects = ["mpmri-pca"]
 +++
 
