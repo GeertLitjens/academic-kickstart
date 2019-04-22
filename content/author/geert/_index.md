@@ -13,7 +13,7 @@ role = "Assistant Professor of Computational Pathology"
 organizations = [ { name = "Computational Pathology Group", url = "https://www.computationalpathology.eu" }, { name = "Diagnostic Image Analysis Group", url = "https://www.diagnijmegen.nl" }, { name = "Radboud University Medical Center", url = "https://www.radboudumc.nl" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "I am an assistant professor of Computational Pathology at the [Radboud University Medical Center](https://www.radboudumc.nl). My research is at the intersection of machine learning, medical imaging, and oncology. I co-chair the [Computational Pathology Group](https://www.computationalpathology.eu), which develops automated machine learning systems for cancer detection, biomarker discovery and quantification, and improved prognostication."
+bio = "I am an assistant professor of Computational Pathology at the [Radboud University Medical Center](https://www.radboudumc.nl). My research is at the intersection of machine learning, medical imaging, and oncology. I co-chair the [Computational Pathology Group](https://www.computationalpathology.eu), which develops automated machine learning systems for cancer detection, biomarker discovery and quantification, and improved prognostication. If you want to learn more, please check my [CV](cv)" 
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "geert.litjens@radboudumc.nl"
@@ -96,4 +96,4 @@ interests = [
 
 Geert Litjens is an assistant professor of Computational Pathology at the [Radboud University Medical Center](https://www.radboudumc.nl). His research is at the intersection of machine learning, medical imaging, and oncology. He co-chairs the [Computational Pathology Group](https://www.computationalpathology.eu), which develops automated machine learning systems for cancer detection, biomarker discovery and quantification, and improved prognostication.
 
-He is also the developer of the [ASAP](https://computationalpathologygroup.github.io/ASAP/) software package for analyzing and visualizing whole-slide images and (co-)organizer of several high-profile challenges in medical imaging such as [PROMISE12](https://promise12.grand-challenge.org) and [CAMELYON](https://camelyon17.grand-challenge.org). He (co-)authored over 60 publications in medical, imaging and machine learning conferences and journals.
+He is also the developer of the [ASAP](https://computationalpathologygroup.github.io/ASAP/) software package for analyzing and visualizing whole-slide images and (co-)organizer of several high-profile challenges in medical imaging such as [PROMISE12](https://promise12.grand-challenge.org) and [CAMELYON](https://camelyon17.grand-challenge.org). He (co-)authored over 60 publications in medical, imaging, and machine learning conferences and journals.

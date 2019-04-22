@@ -6,10 +6,10 @@ subtitle = ""
 summary = ""
 
 date = 2019-04-19T13:41:43+02:00
-draft = false
+draft = true
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = []
+authors = ["Geert Litjens"]
 
 # Is this a featured post? (true/false)
 featured = false
