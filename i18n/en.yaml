@@ -105,6 +105,9 @@
 - id: more_publications
   translation: See all publications
 
+- id: more_media
+  translation: See all media  
+
 # Contact widget
 
 - id: contact_name
@@ -141,6 +144,15 @@
 
 - id: event
   translation: Event
+
+- id: show
+  translation: Show
+
+- id: magazine
+  translation: Magazine
+
+- id: newspaper
+  translation: Newspaper
 
 - id: location
   translation: Location
@@ -193,6 +205,9 @@
 
 - id: talks
   translation: Talks
+
+- id: medias
+  translation: In the Media
 
 - id: projects
   translation: Projects
