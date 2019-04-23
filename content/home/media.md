@@ -5,18 +5,18 @@ active = true
 date = 2016-04-20T00:00:00
 headless = true
 
-title = "Selection of Presentations"
+title = "In the Media"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 4
+weight = 3
 
 [content]
 # Number of talks to list.
 count = 3
 offset = 0
 order = "desc"
-page_type = "talk"
+page_type = "media"
 
   # Filter posts by a taxonomy term.
   [content.filters]
