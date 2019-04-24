@@ -106,9 +106,9 @@ math = false
 #
 #   For more info on the highlighting options, see:
 #   https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
-highlight = false
-highlight_languages = ["python"]
-highlight_style = "github"
+highlight = true
+highlight_languages = ["python", "bash"]
+highlight_style = "vs2015"
 
 # Enable native social sharing buttons?
 sharing = false
