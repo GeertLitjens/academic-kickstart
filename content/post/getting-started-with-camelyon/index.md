@@ -5,7 +5,7 @@ subtitle = ""
 # Add a summary to display on homepage (optional).
 summary = "This post is the first of a three post series on using deep learning to tackle the CAMELYON Challenge. This first post covers basic convolutional neural network training using the PatchCAMELYON dataset and TensorFlow 2.0."
 
-date = 2019-04-19T13:41:43+02:00
+date = 2019-04-24T13:41:43+02:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
