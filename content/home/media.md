@@ -13,7 +13,7 @@ weight = 3
 
 [content]
 # Number of talks to list.
-count = 3
+count = 4
 offset = 0
 order = "desc"
 page_type = "media"
