@@ -17,4 +17,5 @@ deploy:
   verbose: true
   keep-history: true
   local-dir: public
+  fqdn: geertlitjens.nl
   target_branch: master  # branch contains blog content
