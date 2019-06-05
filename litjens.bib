@@ -1953,8 +1953,8 @@
 @String { _Journal_of_Dermatological_Science_                                                                                                                            = {J Dermatol Sci} }
 @String { _Journal_of_Dermatology_                                                                                                                                       = {J Dermatol} }
 @String { _Journal_of_Developmental_and_Behavioral_Pediatrics_                                                                                                           = {J Dev Behav Pediatr} }
-@String { _Journal_of_Diabetes_and_its_Complications_                                                                                                                    = {J Diabetes Complications} }
 @String { _Journal_of_Diabetes_and_Its_Complications_                                                                                                                    = {J Diabetes Complications} }
+@String { _Journal_of_Diabetes_and_its_Complications_                                                                                                                    = {J Diabetes Complications} }
 @String { _Journal_of_Diarrhoeal_Diseases_Research_                                                                                                                      = {J Diarrhoeal Dis Res} }
 @String { _Journal_of_Digital_Imaging_                                                                                                                                   = {J Digit Imaging} }
 @String { _Journal_of_Drug_Education_                                                                                                                                    = {J Drug Educ} }
@@ -4802,17 +4802,6 @@
   optnote   = {DIAG},
 }
 
-@InProceedings{Bult18a,
-  author    = {Bulten, Wouter and Litjens, Geert},
-  title     = {Unsupervised Prostate Cancer Detection on H\&E using Convolutional Adversarial Autoencoders},
-  booktitle = MIDL,
-  year      = {2018},
-  month     = {Jul},
-  abstract  = {We propose an unsupervised method using self-clustering convolutional adversarial autoencoders to classify prostate tissue as tumor or non-tumor without any labeled training data. The clustering method is integrated into the training of the autoencoder and requires only little post-processing. Our network trains on hematoxylin and eosin (H\&E) input patches and we tested two different reconstruction targets, H&E and immunohistochemistry (IHC). We show that antibody-driven feature learning using IHC helps the network to learn relevant features for the clustering task. Our network achieves a F1 score of 0.62 using only a small set of validation labels to assign classes to clusters.},
-  optnote   = {DIAG},
-  url       = {https://arxiv.org/pdf/1804.07098.pdf},
-}
-
 @InProceedings{Ciom17,
   author    = {Ciompi, Francesco and Geessink, Oscar and Bejnordi, Babak and Silva de Souza, Gabriel and Baidoshvili, Alexi and Litjens, Geert and van Ginneken, Bram and Nagtegaal, Iris and van der Laak, Jeroen},
   title     = {The importance of stain normalization in colorectal tissue classification with convolutional networks},
@@ -5509,17 +5498,6 @@ Conclusions: A unique dataset of annotated, whole-slide digital histopathology i
   timestamp      = {2013.01.22},
 }
 
-@Article{Pinc18,
-  author   = {Pinckaers, Hans and Litjens, Geert},
-  title    = {Training convolutional neural networks with megapixel images},
-  journal  = {arXiv:1804.05712},
-  year     = {2018},
-  month    = {Feb},
-  abstract = {To train deep convolutional neural networks, the input data and the intermediate activations need to be kept in memory to calculate the gradient descent step. Given the limited memory available in the current generation accelerator cards, this limits the maximum dimensions of the input data. We demonstrate a method to train convolutional neural networks holding only parts of the image in memory while giving equivalent results. We quantitatively compare this new way of training convolutional neural networks with conventional training. In addition, as a proof of concept, we train a convolutional neural network with 64 megapixel images, which requires 97% less memory than the conventional approach.},
-  optnote  = {DIAG},
-  url      = {https://arxiv.org/pdf/1804.05712},
-}
-
 @Article{Rema16,
   author    = {Romain Remark and Taha Merghoub and Niels Grabe and Geert Litjens and Diane Damotte and Jedd D. Wolchok and Miriam Merad and Sacha Gnjatic},
   title     = {In-depth tissue profiling using multiplexed immunohistochemical consecutive staining on single slide},
@@ -5732,20 +5710,6 @@ Conclusions: A unique dataset of annotated, whole-slide digital histopathology i
   timestamp = {2014.08.23},
 }
 
-@Article{Bult19,
-  author   = {Wouter Bulten and Péter Bándi and Jeffrey Hoven and Rob {van de Loo} and Johannes Lotz and Nick Weiss and Jeroen {van der Laak} and Bram {van Ginneken} and Christina {Hulsbergen-van de Kaa} and Geert Litjens},
-  title    = {Epithelium segmentation using deep learning in H\&E-stained prostate specimens with immunohistochemistry as reference standard},
-  journal  = NATSCIREP,
-  year     = {2019},
-  volume   = {9},
-  number   = {864},
-  abstract = {Given the importance of gland morphology in grading prostate cancer (PCa), automatically differentiating between epithelium and other tissues is an important prerequisite for the development of automated methods for detecting PCa. We propose a new deep learning method to segment epithelial tissue in digitised hematoxylin and eosin (H\&E) stained prostatectomy slides using immunohistochemistry (IHC) as reference standard. We used IHC to create a precise and objective ground truth compared to manual outlining on H&E slides, especially in areas with high-grade PCa. 102 tissue sections were stained with H&E and subsequently restained with P63 and CK8/18 IHC markers to highlight epithelial structures. Afterwards each pair was co-registered. First, we trained a U-Net to segment epithelial structures in IHC using a subset of the IHC slides that were preprocessed with color deconvolution. Second, this network was applied to the remaining slides to create the reference standard used to train a second U-Net on H\&E. Our system accurately segmented both intact glands and individual tumour epithelial cells. The generalisation capacity of our system is shown using an independent external dataset from a different centre. We envision this segmentation as the first part of a fully automated prostate cancer grading pipeline.},
-  date     = {2019-01-29},
-  doi      = {10.1038/s41598-018-37257-4},
-  issue    = {1},
-  optnote  = {DIAG},
-}
-
 @Article{Gees19,
   author   = {Geessink, Oscar and Baidoshvili, Alexi and Klaase, Joost and Ehteshami Bejnordi, Babak and Litjens, Geert and van Pelt, Gabi and Mesker, Wilma and Nagtegaal, Iris and Ciompi, Francesco and van der Laak, Jeroen},
   title    = {Computer aided quantification of intratumoral stroma yields an independent prognosticator in rectal cancer},
@@ -5798,6 +5762,83 @@ Conclusions: A unique dataset of annotated, whole-slide digital histopathology i
   year      = {2019},
   abstract  = {Grading prostate cancer is a time-consuming process and suffers from high inter- and intra-observer variability. Advances in computer-aided diagnosis have shown promise in improving histopathological diagnosis. We trained a deep learning system using data retrieved from the patients records to grade digitized prostate biopsies. Our system is the first that can automatically classify background, benign epithelium, Gleason 3, 4, and 5 on a gland-by-gland level in prostate biopsies. 532 glass slides containing 2162 prostate biopsies, evaluated by an experienced urogenital pathologist were collected and scanned. 596 biopsies were kept separate for evaluation, the remaining 1576 were used to train the deep learning algorithm (see table for Gleason grade distribution). A single label denoting the Gleason score (e.g. 3+4=7) was available for each biopsy, without information on tumor location or volume. To generate detailed annotations for training we used two previously trained deep learning networks to first segment the epithelium and, subsequently, to detect cancer. The Gleason grade from the patient record was assigned to the cancerous epithelium. These generated weakly annotated regions of tumor were then used to train a Gleason grading system. To evaluate, the system was applied to the biopsies in the test set. We used the total predicted surface area of each growth pattern to determine the Gleason score of the biopsy. Predicted tumor areas smaller than 15% of total epithelial tissue were considered unreliable (e.g. incomplete glands at the edges of the biopsy) and ignored for slide level classification. For predicted grades only areas larger than 5% of all epithelial tissue were considered, which is also common in clinical practice. Predicting whether a biopsy contains tumor resulted in an accuracy of 86% (linear weighted kappa (k) of 0.73, area under the ROC curve of 0.96). We compared the predicted primary Gleason grade to the one from the pathologists’ report. Our system achieved an accuracy of 75% (k 0.64). On predicting the Grade Group (using primary and secondary pattern), our system achieved an accuracy of 67% (k 0.57). Misclassifications of more than one grade are rare. Our deep learning system automatically identifies Gleason patterns and benign tissue on a gland-by-gland basis. This can be used to determine the biopsy-level Grade Group and Gleason score, and show which parts of the tissue contribute to this prediction. Improvements need to be made to decrease misclassifications, for example in areas with inflammation.},
   optnote   = {DIAG},
+}
+
+@Article{Maas19,
+  author       = {Maas, Marnix C and Litjens, Geert J S and Wright, Alan J and Attenberger, Ulrike I and Haider, Masoom A and Helbich, Thomas H and Kiefer, Berthold and Macura, Katarzyna J and Margolis, Daniel J A and Padhani, Anwar R and Selnæs, Kirsten M and Villeirs, Geert M and Fütterer, Jurgen J and Scheenen, Tom W J},
+  title        = {A Single-Arm, Multicenter Validation Study of Prostate Cancer Localization and Aggressiveness With a Quantitative Multiparametric Magnetic Resonance Imaging Approach.},
+  journal      = IR,
+  year         = {2019},
+  issn         = {1536-0210},
+  abstract     = {The aims of this study were to assess the discriminative performance of quantitative multiparametric magnetic resonance imaging (mpMRI) between prostate cancer and noncancer tissues and between tumor grade groups (GGs) in a multicenter, single-vendor study, and to investigate to what extent site-specific differences affect variations in mpMRI parameters. Fifty patients with biopsy-proven prostate cancer from 5 institutions underwent a standardized preoperative mpMRI protocol. Based on the evaluation of whole-mount histopathology sections, regions of interest were placed on axial T2-weighed MRI scans in cancer and noncancer peripheral zone (PZ) and transition zone (TZ) tissue. Regions of interest were transferred to functional parameter maps, and quantitative parameters were extracted. Across-center variations in noncancer tissues, differences between tissues, and the relation to cancer grade groups were assessed using linear mixed-effects models and receiver operating characteristic analyses. Variations in quantitative parameters were low across institutes (mean [maximum] proportion of total variance in PZ and TZ, 4% [14%] and 8% [46%], respectively). Cancer and noncancer tissues were best separated using the diffusion-weighted imaging-derived apparent diffusion coefficient, both in PZ and TZ (mean [95% confidence interval] areas under the receiver operating characteristic curve [AUCs]; 0.93 [0.89-0.96] and 0.86 [0.75-0.94]), followed by MR spectroscopic imaging and dynamic contrast-enhanced-derived parameters. Parameters from all imaging methods correlated significantly with tumor grade group in PZ tumors. In discriminating GG1 PZ tumors from higher GGs, the highest AUC was obtained with apparent diffusion coefficient (0.74 [0.57-0.90], P < 0.001). The best separation of GG1-2 from GG3-5 PZ tumors was with a logistic regression model of a combination of functional parameters (mean AUC, 0.89 [0.78-0.98]). Standardized data acquisition and postprocessing protocols in prostate mpMRI at 3 T produce equivalent quantitative results across patients from multiple institutions and achieve similar discrimination between cancer and noncancer tissues and cancer grade groups as in previously reported single-center studies.This is an open-access article distributed under the terms of the Creative Commons Attribution-Non Commercial-No Derivatives License 4.0 (CCBY-NC-ND), where it is permissible to download and share the work provided it is properly cited. The work cannot be changed in any way or used commercially without permission from the journal.},
+  country      = {United States},
+  doi          = {10.1097/RLI.0000000000000558},
+  issn-linking = {0020-9996},
+  nlm-id       = {0045377},
+  optmonth     = {#apr#},
+  optnote      = {DIAG, RADIOLOGY},
+  owner        = {NLM},
+  pmid         = {30946180},
+  pubmodel     = {Print-Electronic},
+  pubstatus    = {aheadofprint},
+  revised      = {2019-04-04},
+}
+
+@Conference{Derck19,
+  author    = {Koen Dercksen and Wouter Bulten and Geert Litjens},
+  title     = {Dealing with Label Scarcity in Computational Pathology: A Use Case in Prostate Cancer Classification},
+  booktitle = MIDL,
+  year      = {2019},
+  abstract  = {Large amounts of unlabelled data are commonplace for many applications in computational pathology, whereas labelled data is often expensive, both in time and cost, to acquire. We investigate the performance of unsupervised and supervised deep learning methods when few labelled data are available. Three methods are compared: clustering autoencoder latent vectors (unsupervised), a single layer classifier combined with a pre-trained autoencoder (semi-supervised), and a supervised CNN. We apply these methods on hematoxylin and eosin (H\&E) stained prostatectomy images to classify tumour versus non-tumour tissue. Results show that semi-/unsupervised methods have an advantage over supervised learning when few labels are available. Additionally, we show that incorporating immunohistochemistry (IHC) stained data provides an increase in performance over only using H\&E.},
+  optnote   = {DIAG},
+  url       = {https://arxiv.org/abs/1804.07098},
+}
+
+@Article{Bult19,
+  author   = {Wouter Bulten and Péter Bándi and Jeffrey Hoven and Rob {van de Loo} and Johannes Lotz and Nick Weiss and Jeroen {van der Laak} and Bram {van Ginneken} and Christina {Hulsbergen-van de Kaa} and Geert Litjens},
+  title    = {Epithelium segmentation using deep learning in H\&E-stained prostate specimens with immunohistochemistry as reference standard},
+  journal  = NATSCIREP,
+  year     = {2019},
+  volume   = {9},
+  number   = {864},
+  abstract = {Given the importance of gland morphology in grading prostate cancer (PCa), automatically differentiating between epithelium and other tissues is an important prerequisite for the development of automated methods for detecting PCa. We propose a new deep learning method to segment epithelial tissue in digitised hematoxylin and eosin (H\&E) stained prostatectomy slides using immunohistochemistry (IHC) as reference standard. We used IHC to create a precise and objective ground truth compared to manual outlining on H&E slides, especially in areas with high-grade PCa. 102 tissue sections were stained with H&E and subsequently restained with P63 and CK8/18 IHC markers to highlight epithelial structures. Afterwards each pair was co-registered. First, we trained a U-Net to segment epithelial structures in IHC using a subset of the IHC slides that were preprocessed with color deconvolution. Second, this network was applied to the remaining slides to create the reference standard used to train a second U-Net on H\&E. Our system accurately segmented both intact glands and individual tumour epithelial cells. The generalisation capacity of our system is shown using an independent external dataset from a different centre. We envision this segmentation as the first part of a fully automated prostate cancer grading pipeline.},
+  date     = {2019-01-29},
+  doi      = {10.1038/s41598-018-37257-4},
+  issue    = {1},
+  pmid     = {30696866},
+  url      = {https://arxiv.org/abs/1808.05883},
+}
+
+@Conference{Bult18a,
+  author    = {Bulten, Wouter and Litjens, Geert},
+  title     = {Unsupervised Prostate Cancer Detection on H\&E using Convolutional Adversarial Autoencoders},
+  booktitle = MIDL,
+  year      = {2018},
+  abstract  = {We propose an unsupervised method using self-clustering convolutional adversarial autoencoders to classify prostate tissue as tumor or non-tumor without any labeled training data. The clustering method is integrated into the training of the autoencoder and requires only little post-processing. Our network trains on hematoxylin and eosin (H\&E) input patches and we tested two different reconstruction targets, H&E and immunohistochemistry (IHC). We show that antibody-driven feature learning using IHC helps the network to learn relevant features for the clustering task. Our network achieves a F1 score of 0.62 using only a small set of validation labels to assign classes to clusters.},
+  file      = {Bult18a.pdf:pdf\\Bult18a.pdf:PDF},
+  optnote   = {DIAG},
+  url       = {https://arxiv.org/abs/1804.07098},
+}
+
+@Conference{Pinc18,
+  author    = {Pinckaers, Hans and Litjens, Geert},
+  title     = {Training convolutional neural networks with megapixel images},
+  booktitle = MIDL,
+  year      = {2018},
+  abstract  = {To train deep convolutional neural networks, the input data and the intermediate activations need to be kept in memory to calculate the gradient descent step. Given the limited memory available in the current generation accelerator cards, this limits the maximum dimensions of the input data. We demonstrate a method to train convolutional neural networks holding only parts of the image in memory while giving equivalent results. We quantitatively compare this new way of training convolutional neural networks with conventional training. In addition, as a proof of concept, we train a convolutional neural network with 64 megapixel images, which requires 97% less memory than the conventional approach.},
+  file      = {Pinc18.pdf:PDF\\Pinc18.pdf:PDF},
+  optnote   = {DIAG},
+  url       = {https://arxiv.org/abs/1804.05712},
+}
+
+@InProceedings{Bel19,
+  author    = {Thomas de Bel and Meyke Hermsen and Jesper Kers and Jeroen van der Laak andGeert Litjens},
+  title     = {Stain-Transforming Cycle-Consistent Generative Adversarial Networks for Improved Segmentation of Renal Histopathology},
+  booktitle = MIDL,
+  year      = {2019},
+  abstract  = {Precise segmentation of the vertebrae is often required for automatic detection of vertebral abnormalities. This especially enables incidental detection of abnormalities such as compression fractures in images that were acquired for other diagnostic purposes. While many CT and MR scans of the chest and abdomen cover a section of the spine, they often do not cover the entire spine. Additionally, the first and last visible vertebrae are likely only partially included in such scans. In this paper, we therefore approach vertebra segmentation as an instance segmentation problem. A fully convolutional neural network is combined with an instance memory that retains information about already segmented vertebrae. This network iteratively analyzes image patches, using the instance memory to search for and segment the first not yet segmented vertebra. At the same time, each vertebra is classified as completely or partially visible, so that partially visible vertebrae can be excluded from further analyses. We evaluated this method on spine CT scans from a vertebra segmentation challenge and on low-dose chest CT scans. The method achieved an average Dice score of 95.8% and 92.1%, respectively, and a mean absolute surface distance of 0.194 mm and 0.344 mm.},
+  optnote   = {DIAG},
+  url       = {https://arxiv.org/abs/1804.04383},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
