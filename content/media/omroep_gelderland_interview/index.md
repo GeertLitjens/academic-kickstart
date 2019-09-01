@@ -3,6 +3,7 @@ title = "Report on Omroep Gelderland on 'De Nieuwe Mens'"
 
 # Air date.
 date = 2019-05-06
+all_day = true
 
 # Schedule page publish date (NOT talk date).
 publishDate = 2019-05-27T15:49:11+02:00

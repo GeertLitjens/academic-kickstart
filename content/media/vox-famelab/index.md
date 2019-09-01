@@ -3,6 +3,7 @@ title = "Interview with Vox about FameLab"
 
 # Air date.
 date = 2015-01-01
+all_day = true
 
 # Schedule page publish date (NOT talk date).
 publishDate = 2019-04-23T21:32:50+02:00

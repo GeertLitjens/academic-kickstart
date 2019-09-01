@@ -3,6 +3,7 @@ title = "BNR Wetenschap Vandaag - Zomercollege"
 
 # Air date.
 date = 2018-07-18
+all_day = true
 
 # Schedule page publish date (NOT talk date).
 publishDate = 2019-04-23T21:33:47+02:00

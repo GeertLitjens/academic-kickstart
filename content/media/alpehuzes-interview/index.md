@@ -3,7 +3,7 @@ title = "Interview Regional TV at Alpe Hu'Zes"
 
 # Air date.
 date = 2016-06-01
-
+all_day = true
 # Schedule page publish date (NOT talk date).
 publishDate = 2019-04-23T21:33:56+02:00
 

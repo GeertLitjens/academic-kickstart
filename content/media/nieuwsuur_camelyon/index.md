@@ -3,6 +3,7 @@ title = "Report on Nieuwsuur about CAMELYON."
 
 # Air date.
 date = 2017-12-13
+all_day = true
 
 # Schedule page publish date (NOT talk date).
 publishDate = 2019-04-22T21:08:25+02:00
