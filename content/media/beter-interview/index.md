@@ -3,6 +3,7 @@ title = "BNR Beter - Interview"
 
 # Air date.
 date = 2018-06-04
+all_day = true
 
 # Schedule page publish date (NOT talk date).
 publishDate = 2019-04-23T21:08:25+02:00

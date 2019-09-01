@@ -3,6 +3,7 @@ title = "Interview with Prostate Cancer Patient Foundation"
 
 # Air date.
 date = 2018-03-01
+all_day = true
 
 # Schedule page publish date (NOT talk date).
 publishDate = 2019-04-26T10:22:02+02:00

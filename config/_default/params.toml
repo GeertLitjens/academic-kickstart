@@ -2,7 +2,9 @@
 
 # Color theme.
 #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
-color_theme = 'dark'
+theme = 'dark'
+font = "minimal"
+font_size = "s"
 # Enable users to switch between day and night mode?
 day_night = false
 
@@ -45,10 +47,6 @@ latitude = "37.4275"
 longitude = "-122.1697"
 zoom = 15
 
-# Font style.
-#   Choose from `default`, `classic`, or `playfair`.
-font = "default_small"
-
 # Description for social sharing and search engines. If undefined, author role is used in place.
 description = "Geert's blog on his research and other interests."
 
@@ -71,11 +69,11 @@ time_format = "15:04"
 # Show estimated reading time for posts?
 reading_time = true
 
-# Display comment count? Requires commenting to be enabled.
-comment_count = false
-
 # Display next/previous section pager?
 section_pager = false
+
+# Pages editable by guests
+edit_page = {repo_url = "", editable = {docs = false, page = false, post = false}}
 
 # Enable global LaTeX math rendering?
 #   If false, you can enable it locally on a per page basis.
@@ -167,3 +165,19 @@ plugins_js  = []
   api_key = ""
   index_name = ""
   show_logo = false
+
+  # Comments.
+[comments]
+  # Comment provider:
+  #   0: Disabled
+  #   1: Disqus (https://disqus.com)
+  #   2: Commento (https://commento.io)
+  engine = 1
+
+  # Which page types are commentable?
+  commentable = {page = false, post = true, docs = false}
+
+  # Configuration of Disqus.
+  [comments.disqus]
+    shortname = "geertlitjens"  # Paste the shortname from your Disqus dashboard.
+    show_count = false  # Show comment count in page header? (true/false)
