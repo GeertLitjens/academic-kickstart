@@ -14,6 +14,8 @@ summary = "Less unnecessary therapy for prostate cancer patients."
 # Example: `tags = ["machine-learning", "deep-learning"]`
 tags = ["Active", "Machine Learning", "Prostate Cancer", "Computational Pathology"]
 
+authors = [""]
+
 # Optional external URL for project (replaces project detail page).
 external_link = ""
 

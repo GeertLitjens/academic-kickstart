@@ -3,6 +3,7 @@ title = "CAMELYON"
 date = 2016-01-22T22:00:35+01:00
 draft = false
 share = false
+authors = [""]
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`

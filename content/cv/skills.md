@@ -55,7 +55,7 @@ weight = 7
   icon = "chart-line"
   icon_pack = "fas"
   name = "Data Analysis & Statistics"
-  description = "I have taken several (bio-)statistics courses and have working experience with advanced statistical methods. Examples include survival analysis and mixex models."  
+  description = "I have taken several (bio-)statistics courses and have working experience with advanced statistical methods. Examples include survival analysis and mixed models."  
 
 [[feature]]
   icon = "brain"
