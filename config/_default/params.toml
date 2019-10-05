@@ -12,12 +12,7 @@ gravatar = false  # Get your avatar from Gravatar.com? (true/false)
 
 # Details for the Contact Widget
 email = "geert.litjens@radboudumc.nl"
-address = "Route 824, Radboud University Medical Center, Geert Grootteplein-Zuid 10, Nijmegen, the Netherlands"
-#office_hours = """"""
-#phone = "888 888 88 88"
-#skype = "echo123"
-#telegram = ""
-#keybase = ""  # Your keybase.io username.
+address = {street = "Route 812, Radboud University Medical Center, Geert Grootteplein-Zuid 10", postcode = "6525GA", city = "Nijmegen", country = "the Netherlands", country_code="NL"}
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
 #appointment_url = ""
@@ -26,26 +21,7 @@ address = "Route 824, Radboud University Medical Center, Geert Grootteplein-Zuid
 #   Uncomment line below to use.
 #   discussion = { name = "Discuss", url = "https://discourse.gohugo.io" }
 
-# Enable/disable map in Contact widget.
-# To show your address on a map in the contact widget, you need to enter your latitude, longitude and choose
-# a map provider below.
-# To use Google Maps, set `map = 1` and enter your API key that can be obtained here:
-#   https://developers.google.com/maps/documentation/javascript/get-api-key
-# To use OpenStreetMap tiles, set `map = 2`.
-# To use OpenStreetMap on a high traffic site, set `map = 3` and enter your API key that can be obtained here:
-#   https://www.mapbox.com/studio/account/tokens
-# To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-#
-# Map provider:
-#   0: No map
-#   1: Google Maps
-#   2: OpenStreetMap (Mapnik)
-#   3: OpenStreetMap (Mapbox)
-map = 0
-map_api_key = ""
-latitude = "37.4275"
-longitude = "-122.1697"
-zoom = 15
+coordinates = {latitude = "37.4275", longitude = "-122.1697"}
 
 # Description for social sharing and search engines. If undefined, author role is used in place.
 description = "Geert's blog on his research and other interests."
@@ -172,7 +148,7 @@ plugins_js  = []
   #   0: Disabled
   #   1: Disqus (https://disqus.com)
   #   2: Commento (https://commento.io)
-  engine = 1
+  engine = 2
 
   # Which page types are commentable?
   commentable = {page = false, post = true, docs = false}
@@ -181,3 +157,29 @@ plugins_js  = []
   [comments.disqus]
     shortname = "geertlitjens"  # Paste the shortname from your Disqus dashboard.
     show_count = false  # Show comment count in page header? (true/false)
+
+############################
+## Marketing
+############################
+[marketing]
+  google_analytics = "UA-139145569-1"
+  google_tag_manager = ""
+
+[map]
+  # To show your address on a map in the Contact widget, enter your latitude and longitude (above)
+  # and choose a map provider below.
+  #
+  # To use Google Maps, set `engine` to 1 and enter your API key that can be obtained here:
+  #   https://developers.google.com/maps/documentation/javascript/get-api-key
+  # To use OpenStreetMap tiles, set `engine` to 2.
+  # To use OpenStreetMap on a high traffic site, set `engine` to 3 and enter your API key that can be obtained here:
+  #   https://www.mapbox.com/studio/account/tokens
+  #
+  # Map provider:
+  #   0: No map
+  #   1: Google Maps
+  #   2: OpenStreetMap (Mapnik)
+  #   3: OpenStreetMap (Mapbox)
+  engine = 0
+  api_key = ""
+  zoom = 15

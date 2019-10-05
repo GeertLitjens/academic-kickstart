@@ -3,6 +3,8 @@ title = "Automated Analysis of Histopathological Clinical Trial Data"
 date = 2015-04-01T12:16:34+02:00
 draft = false
 
+authors = [""]
+
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
 tags = []
