@@ -22,9 +22,6 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 preserveTaxonomyNames = true
 paginate = 10
 
-# Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = "UA-139145569-1"
-
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
 hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
