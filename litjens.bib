@@ -1953,8 +1953,8 @@
 @String { _Journal_of_Dermatological_Science_                                                                                                                            = {J Dermatol Sci} }
 @String { _Journal_of_Dermatology_                                                                                                                                       = {J Dermatol} }
 @String { _Journal_of_Developmental_and_Behavioral_Pediatrics_                                                                                                           = {J Dev Behav Pediatr} }
-@String { _Journal_of_Diabetes_and_Its_Complications_                                                                                                                    = {J Diabetes Complications} }
 @String { _Journal_of_Diabetes_and_its_Complications_                                                                                                                    = {J Diabetes Complications} }
+@String { _Journal_of_Diabetes_and_Its_Complications_                                                                                                                    = {J Diabetes Complications} }
 @String { _Journal_of_Diarrhoeal_Diseases_Research_                                                                                                                      = {J Diarrhoeal Dis Res} }
 @String { _Journal_of_Digital_Imaging_                                                                                                                                   = {J Digit Imaging} }
 @String { _Journal_of_Drug_Education_                                                                                                                                    = {J Drug Educ} }
@@ -2912,6 +2912,7 @@
 @String { _Pediatric_Surgery_International_                                                                                                                              = {Pediatr Surg Int} }
 @String { _Pediatrics_                                                                                                                                                   = {Pediatrics} }
 @String { _Pediatrics_in_Review_                                                                                                                                         = {Pediatr Rev} }
+@String{_PeerJ_                                                                                                                                                        = {PeerJ}}
 @String { _Pennsylvania_Medicine_                                                                                                                                        = {Pa Med} }
 @String { _Peptides_                                                                                                                                                     = {Peptides} }
 @String { _Perception_                                                                                                                                                   = {Perception} }
@@ -4488,6 +4489,7 @@
 @String{PR                = _Pattern_Recognition_}
 @String{PRER              = _Progress_in_Retinal_and_Eye_Research_}
 @String{PRIA              = _Pattern_Recognition_and_Image_Analysis_}
+@String{PRJ                                                                                                                                                            = _PeerJ_}
 @String{PRL               = _Pattern_Recognition_Letters_}
 @String{PROCBS            = _Proceedings_Biological_Sciences_}
 @String{Prostate          = _Prostate_}
@@ -5831,14 +5833,144 @@ Conclusions: A unique dataset of annotated, whole-slide digital histopathology i
   url       = {https://arxiv.org/abs/1804.05712},
 }
 
+@Article{Apru19,
+  author       = {Aprupe, Lilija and Litjens, Geert and Brinker, Titus J and van der Laak, Jeroen and Grabe, Niels},
+  title        = {Robust and accurate quantification of biomarkers of immune cells in lung cancer micro-environment using deep convolutional neural networks},
+  journal      = PRJ,
+  year         = {2019},
+  volume       = {7},
+  pages        = {e6335},
+  issn         = {2167-8359},
+  abstract     = {Recent years have seen a growing awareness of the role the immune system plays in successful cancer treatment, especially in novel therapies like immunotherapy. The characterization of the immunological composition of tumors and their micro-environment is thus becoming a necessity. In this paper we introduce a deep learning-based immune cell detection and quantification method, which is based on supervised learning, i.e., the input data for training comprises labeled images. Our approach objectively deals with staining variation and staining artifacts in immunohistochemically stained lung cancer tissue and is as precise as humans. This is evidenced by the low cell count difference to humans of 0.033 cells on average. This method, which is based on convolutional neural networks, has the potential to provide a new quantitative basis for research on immunotherapy.},
+  country      = {United States},
+  doi          = {10.7717/peerj.6335},
+  file         = {Apru19.pdf:pdf\\Apru19.pdf:PDF},
+  issn-linking = {2167-8359},
+  keywords     = {Biomarker quantification; Cancer micro-environment; Deep learning; Immune cells; Lung cancer},
+  nlm-id       = {101603425},
+  optnote      = {RADIOLOGY, DIAG},
+  owner        = {NLM},
+  pii          = {6335},
+  pmc          = {PMC6462181},
+  pmid         = {30993030},
+  pubmodel     = {Electronic-eCollection},
+  pubstatus    = {epublish},
+  revised      = {2019-04-19},
+}
+
+@Article{Tell19,
+  author   = {Tellez, David and Litjens, Geert and van der Laak, Jeroen and Ciompi, Francesco},
+  title    = {Neural Image Compression for Gigapixel Histopathology Image Analysis},
+  journal  = TPAMI,
+  year     = {2019},
+  month    = {Aug},
+  abstract = {We propose Neural Image Compression (NIC), a two-step method to build convolutional neural networks for gigapixel image analysis solely using weak image-level labels. First, gigapixel images are compressed using a neural network trained in an unsupervised fashion, retaining high-level information while suppressing pixel-level noise. Second, a convolutional neural network (CNN) is trained on these compressed image representations to predict image-level labels, avoiding the need for fine-grained manual annotations. We compared several encoding strategies, namely reconstruction error minimization, contrastive training and adversarial feature learning, and evaluated NIC on a synthetic task and two public histopathology datasets. We found that NIC can exploit visual cues associated with image-level labels successfully, integrating both global and local visual information. Furthermore, we visualized the regions of the input gigapixel images where the CNN attended to, and confirmed that they overlapped with annotations from human experts.},
+  doi      = {10.1109/TPAMI.2019.2936841},
+  file     = {Tell19.pdf:pdf\\Tell19.pdf:PDF},
+  optnote  = {DIAG, RADIOLOGY, INPRESS},
+  pmid     = {31442971},
+  url      = {https://ieeexplore.ieee.org/document/8809829},
+}
+
 @InProceedings{Bel19,
-  author    = {Thomas de Bel and Meyke Hermsen and Jesper Kers and Jeroen van der Laak andGeert Litjens},
+  author    = {Thomas de Bel and Meyke Hermsen and Jesper Kers and Jeroen van der Laak and Geert Litjens},
   title     = {Stain-Transforming Cycle-Consistent Generative Adversarial Networks for Improved Segmentation of Renal Histopathology},
   booktitle = MIDL,
   year      = {2019},
-  abstract  = {Precise segmentation of the vertebrae is often required for automatic detection of vertebral abnormalities. This especially enables incidental detection of abnormalities such as compression fractures in images that were acquired for other diagnostic purposes. While many CT and MR scans of the chest and abdomen cover a section of the spine, they often do not cover the entire spine. Additionally, the first and last visible vertebrae are likely only partially included in such scans. In this paper, we therefore approach vertebra segmentation as an instance segmentation problem. A fully convolutional neural network is combined with an instance memory that retains information about already segmented vertebrae. This network iteratively analyzes image patches, using the instance memory to search for and segment the first not yet segmented vertebra. At the same time, each vertebra is classified as completely or partially visible, so that partially visible vertebrae can be excluded from further analyses. We evaluated this method on spine CT scans from a vertebra segmentation challenge and on low-dose chest CT scans. The method achieved an average Dice score of 95.8% and 92.1%, respectively, and a mean absolute surface distance of 0.194 mm and 0.344 mm.},
+  abstract  = {The performance of deep learning applications in digital histopathology can deteriorate significantly due to staining variations across centers. We employ cycle-consistent generative adversarial networks (cycleGANs) for unpaired image-to-image translation, facilitating between-center stain transformation. We find that modifications to the original cycleGAN architecture make it more suitable for stain transformation, creating artificially stained images of high quality. Specifically, changing the generator model to a smaller U-net-like architecture, adding an identity loss term, increasing the batch size and the learning all led to improved training stability and performance. Furthermore, we propose a method for dealing with tiling artifacts when applying the network on whole slide images (WSIs). We apply our stain transformation method on two datasets of PAS-stained (Periodic Acid-Schiff) renal tissue sections from different centers. We show that stain transformation is beneficial to the performance of cross-center segmentation, raising the Dice coefficient from 0.36 to 0.85 and from 0.45 to 0.73 on the two datasets.},
+  file      = {Bel19.pdf:pdf\\Bel19.pdf:PDF},
   optnote   = {DIAG},
-  url       = {https://arxiv.org/abs/1804.04383},
+  url       = {https://openreview.net/forum?id=BkxJkgSlx4},
+}
+
+@Article{Bult19b,
+  author      = {{Bulten}, Wouter and {Pinckaers}, Hans and {van Boven}, Hester and {Vink}, Robert and {de Bel}, Thomas and {van Ginneken}, Bram and {van der Laak}, Jeroen and {Hulsbergen-van de Kaa}, Christina and {Litjens}, Geert},
+  title       = {Automated Gleason Grading of Prostate Biopsies using Deep Learning},
+  journal     = {arXiv:1907.07980},
+  year        = {2019},
+  abstract    = {The Gleason score is the most important prognostic marker for prostate cancer patients but suffers from significant inter-observer variability. We developed a fully automated deep learning system to grade prostate biopsies. The system was developed using 5834 biopsies from 1243 patients. A semi-automatic labeling technique was used to circumvent the need for full manual annotation by pathologists. The developed system achieved a high agreement with the reference standard. In a separate observer experiment, the deep learning system outperformed 10 out of 15 pathologists. The system has the potential to improve prostate cancer prognostics by acting as a first or second reader.},
+  date        = {2019-07-18},
+  eprint      = {arXiv:1907.07980},
+  eprintclass = {eess.IV},
+  eprinttype  = {arXiv},
+  optnote     = {DIAG},
+  url         = {https://arxiv.org/abs/1907.07980},
+}
+
+@Article{Litj19,
+  author          = {Litjens, Geert and Ciompi, Francesco and Wolterink, Jelmer M and de Vos, Bob D and Leiner, Tim and Teuwen, Jonas and Išgum, Ivana},
+  title           = {State-of-the-Art Deep Learning in Cardiovascular Image Analysis.},
+  journal         = JACCCI,
+  year            = {2019},
+  volume          = {12},
+  pages           = {1549--1565},
+  month           = aug,
+  issn            = {1876-7591},
+  abstract        = {Cardiovascular imaging is going to change substantially in the next decade, fueled by the deep learning revolution. For medical professionals, it is important to keep track of these developments to ensure that deep learning can have meaningful impact on clinical practice. This review aims to be a stepping stone in this process. The general concepts underlying most successful deep learning algorithms are explained, and an overview of the state-of-the-art deep learning in cardiovascular imaging is provided. This review discusses >80 papers, covering modalities ranging from cardiac magnetic resonance, computed tomography, and single-photon emission computed tomography, to intravascular optical coherence tomography and echocardiography. Many different machines learning algorithms were used throughout these papers, with the most common being convolutional neural networks. Recent algorithms such as generative adversarial models were also used. The potential implications of deep learning algorithms on clinical practice, now and in the near future, are discussed.},
+  citation-subset = {IM},
+  country         = {United States},
+  doi             = {10.1016/j.jcmg.2019.06.009},
+  file            = {:pdf/Litj19.pdf:PDF},
+  issn-linking    = {1876-7591},
+  issue           = {8 Pt 1},
+  keywords        = {artificial intelligence; cardiovascular imaging; deep learning},
+  nlm-id          = {101467978},
+  optnote         = {DIAG;, RADIOLOGY},
+  pmid            = {31395244},
+}
+
+@Article{Swid19,
+  author          = {Swiderska-Chadaj, Zaneta and Pinckaers, Hans and van Rijthoven, Mart and Balkenhol, Maschenka and Melnikova, Margarita and Geessink, Oscar and Manson, Quirine and Sherman, Mark and Polonia, Antonio and Parry, Jeremy and Abubakar, Mustapha and Litjens, Geert and van der Laak, Jeroen and Ciompi, Francesco},
+  title           = {Learning to detect lymphocytes in immunohistochemistry with deep learning},
+  journal         = MIA,
+  year            = {2019},
+  volume          = {58},
+  pages           = {101547},
+  month           = aug,
+  issn            = {1361-8423},
+  abstract        = {The immune system is of critical importance in the development of cancer. The evasion of destruction by the immune system is one of the emerging hallmarks of cancer. We have built a dataset of 171,166 manually annotated CD3  and CD8  cells, which we used to train deep learning algorithms for automatic detection of lymphocytes in histopathology images to better quantify immune response. Moreover, we investigate the effectiveness of four deep learning based methods when different subcompartments of the whole-slide image are considered: normal tissue areas, areas with immune cell clusters, and areas containing artifacts. We have compared the proposed methods in breast, colon and prostate cancer tissue slides collected from nine different medical centers. Finally, we report the results of an observer study on lymphocyte quantification, which involved four pathologists from different medical centers, and compare their performance with the automatic detection. The results give insights on the applicability of the proposed methods for clinical use. U-Net obtained the highest performance with an F1-score of 0.78 and the highest agreement with manual evaluation (κ=0.72), whereas the average pathologists agreement with reference standard was κ=0.64. The test set and the automatic evaluation procedure are publicly available at lyon19.grand-challenge.org.},
+  citation-subset = {IM},
+  country         = {Netherlands},
+  doi             = {10.1016/j.media.2019.101547},
+  file            = {Swid19.pdf:pdf\\Swid19.pdf:PDF},
+  issn-linking    = {1361-8415},
+  keywords        = {Computational pathology; Deep learning; Immune cell detection; Immunohistochemistry},
+  nlm-id          = {9713490},
+  optnote         = {DIAG, RADIOLOGY},
+  owner           = {NLM},
+  pii             = {S1361-8415(19)30082-9},
+  pmid            = {31476576},
+  pubmodel        = {Print-Electronic},
+  pubstatus       = {aheadofprint},
+  revised         = {2019-09-04},
+  url             = {https://linkinghub.elsevier.com/retrieve/pii/S1361-8415(19)30082-9},
+}
+
+@Article{Tell19a,
+  author          = {Tellez, David and Litjens, Geert and Bándi, Péter and Bulten, Wouter and Bokhorst, John-Melle and Ciompi, Francesco and van der Laak, Jeroen},
+  title           = {Quantifying the effects of data augmentation and stain color normalization in convolutional neural networks for computational pathology.},
+  journal         = MIA,
+  year            = {2019},
+  volume          = {58},
+  pages           = {101544},
+  month           = aug,
+  issn            = {1361-8423},
+  abstract        = {Stain variation is a phenomenon observed when distinct pathology laboratories stain tissue slides that exhibit similar but not identical color appearance. Due to this color shift between laboratories, convolutional neural networks (CNNs) trained with images from one lab often underperform on unseen images from the other lab. Several techniques have been proposed to reduce the generalization error, mainly grouped into two categories: stain color augmentation and stain color normalization. The former simulates a wide variety of realistic stain variations during training, producing stain-invariant CNNs. The latter aims to match training and test color distributions in order to reduce stain variation. For the first time, we compared some of these techniques and quantified their effect on CNN classification performance using a heterogeneous dataset of hematoxylin and eosin histopathology images from 4 organs and 9 pathology laboratories. Additionally, we propose a novel unsupervised method to perform stain color normalization using a neural network. Based on our experimental results, we provide practical guidelines on how to use stain color augmentation and stain color normalization in future computational pathology applications.},
+  citation-subset = {IM},
+  country         = {Netherlands},
+  doi             = {10.1016/j.media.2019.101544},
+  file            = {Tell19a.pdf:pdf\\Tell19a.pdf:PDF},
+  issn-linking    = {1361-8415},
+  keywords        = {Computational pathology; Convolutional neural network; Deep learning},
+  nlm-id          = {9713490},
+  optnote         = {DIAG, RADIOLOGY, INPRESS},
+  owner           = {NLM},
+  pii             = {S1361-8415(19)30079-9},
+  pmid            = {31466046},
+  pubmodel        = {Print-Electronic},
+  pubstatus       = {aheadofprint},
+  revised         = {2019-09-19},
+  url             = {https://www.sciencedirect.com/science/article/pii/S1361841519300799},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
