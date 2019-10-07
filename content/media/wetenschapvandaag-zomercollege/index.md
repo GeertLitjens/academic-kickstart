@@ -9,7 +9,7 @@ all_day = true
 publishDate = 2019-04-23T21:33:47+02:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = []
+authors = ["geert"]
 
 # Name of event and optional event URL.
 media_type = "show"

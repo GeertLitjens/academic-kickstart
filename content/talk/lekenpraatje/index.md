@@ -11,7 +11,7 @@ all_day = true
 publishDate = 2015-01-23
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Geert Litjens"]
+authors = ["geert"]
 
 # Location of event.
 location = "Aula, Radboud Universiteit, Nijmegen"
