@@ -5,6 +5,7 @@
 theme = 'dark'
 font = "minimal"
 font_size = "s"
+site_type = "Person"
 # Enable users to switch between day and night mode?
 day_night = false
 

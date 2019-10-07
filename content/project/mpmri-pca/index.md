@@ -2,7 +2,7 @@
 title = "Computerized Detection of Prostate Cancer in Multi-Parametric MRI"
 date = 2010-01-07T11:55:45+02:00
 draft = false
-authors = [""]
+authors = ["geert"]
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`

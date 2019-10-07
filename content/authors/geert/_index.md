@@ -2,6 +2,9 @@
 # Display name
 name = "Geert Litjens"
 
+# Username (this should match the folder name)
+authors = "geert"
+
 # Is this the primary user of the site?
 superuser = true
 
