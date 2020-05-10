@@ -9,8 +9,6 @@ site_type = "Person"
 # Enable users to switch between day and night mode?
 day_night = false
 
-gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-
 # Details for the Contact Widget
 email = "geert.litjens@radboudumc.nl"
 address = {street = "Route 812, Radboud University Medical Center, Geert Grootteplein-Zuid 10", postcode = "6525GA", city = "Nijmegen", country = "the Netherlands", country_code="NL"}
@@ -42,6 +40,14 @@ logo = ""
 date_format = "Jan 2, 2006"
 #   Examples: "3:04 pm" or "15:04"
 time_format = "15:04"
+address_format = "de"
+
+############################
+## Advanced
+############################
+
+# Main menu alignment (l = left, c = center, r = right) and logo options.
+main_menu = {align = "r", show_logo = true}
 
 # Show estimated reading time for posts?
 reading_time = true
@@ -97,13 +103,24 @@ privacy_pack = false
 # Load CSS and JS plugins
 #   E.g. To load `/assets/css/custom.css`, set `plugins_css = ["custom"]`.
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
-plugins_css = ["custom"]
 plugins_js  = []
+
+[avatar]
+  shape = "circle"
+  gravatar = false  # Get your avatar from Gravatar.com? (true/false)
 
 # Configuration of talk pages.
 [talks]
   # Show talk time?
   time = true
+
+# Available address formats.
+[address_formats]
+  en-us = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ' ', '']}
+  en-gb = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ', ', '']}
+  de = {order = ['street', 'postcode', 'city'], delimiters = ['<br>', ' ', '']}
+  fr-fr = {order = ['street', 'postcode', 'city'], delimiters = ['<br>', ' ', '']}
+  zh = {order = ['postcode', 'region', 'city', 'street'], delimiters = [' ', ' ', ' ', '']}
 
 # Configuration of publication pages.
 [publications]
@@ -184,3 +201,7 @@ plugins_js  = []
   engine = 0
   api_key = ""
   zoom = 15
+
+
+# Link authors to their profile page? (true/false)
+link_authors = false
