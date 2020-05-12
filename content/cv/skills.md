@@ -37,13 +37,13 @@ weight = 7
   icon = "github"
   icon_pack = "fab"
   name = "Git/Github"
-  description = "All software and algorithms I develop are under version control. Nowadays we make extensive use of Git and Github for source code management."  
+  description = "All software and algorithms I develop are under version control. Nowadays, we make extensive use of Git and Github for source code management."  
 
 [[feature]]
   icon = "microscope"
   icon_pack = "fas"
   name = "Pathology"
-  description = "Since 2014 my research has focused on challenges in diagnostic pathology. This has helped me attain knowledge on pathologist's workflows in many application, with emphasis on those in oncology."  
+  description = "Since 2014 my research has focused on challenges in diagnostic pathology. This has helped me attain knowledge on pathologist's workflows in many applications, with emphasis on those in oncology."  
 
 [[feature]]
   icon = "x-ray"
@@ -67,7 +67,7 @@ weight = 7
   icon = "images"
   icon_pack = "fas"
   name = "Medical Image Analysis"
-  description = "I have been working on impage processing tools for over a decade and have applied, among others, image registration, filtering, and morphological image processing in different projects."
+  description = "I have been working on image processing tools for over a decade and have applied, among others, image registration, filtering, and morphological image processing in different projects."
   
 [[feature]]
   icon = "language"

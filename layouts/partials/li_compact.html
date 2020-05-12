@@ -15,7 +15,7 @@
   {{ $microdata_type = "BlogPosting" }}
 {{ else if eq $item.Type "talk" }}
   {{ $microdata_type = "Event" }}
-  {{ $show_authors_only = true }}
+  {{ $show_authors_only = false }}
   {{ $show_buttons = true }}
 {{ else if eq $item.Type "media" }}
   {{ $microdata_type = "Event" }}

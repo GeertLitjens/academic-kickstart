@@ -14,6 +14,9 @@ subtitle = ""
 weight = 6
 
 +++
+### Bayer Prostate Cancer Academy
+  - **Location:** Baarn, the Netherlands
+  - **Year:** 2019
 
 ### Swedish Deep Learning Conference
   - **Location:** Norrköping, Sweden

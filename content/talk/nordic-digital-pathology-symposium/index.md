@@ -4,7 +4,6 @@ title = "Applications of Machine Learning for Clinical Practice"
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
 date = 2019-05-16
-date_end = 2019-05-16
 all_day = true
 
 # Schedule page publish date (NOT talk date).
@@ -21,7 +20,7 @@ event = "Nordic Digital Pathology Symposium"
 event_url = "https://varmote2019.se/konferensen/ndp"
 
 # Abstract. What's your talk about?
-abstract = "Clinical pathology as at the forefront of a digital revolution. In addition to the digital workflow, pathologists will also come into contact with machine learning algorithms aimed at improving their diagnostic accuracy and efficiency. In this presentation I highlight some applications which will be among the first to see use in clinical practice."
+abstract = "Clinical pathology is at the forefront of a digital revolution. In addition to the digital workflow, pathologists will also come into contact with machine learning algorithms aimed at improving their diagnostic accuracy and efficiency. In this presentation I highlight some applications which will be among the first to see use in clinical practice."
 
 # Summary. An optional shortened abstract.
 summary = ""

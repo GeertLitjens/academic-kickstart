@@ -14,6 +14,15 @@ subtitle = ""
 weight = 3
 
 +++
+### KNAW Early Career Award
+  - **Organisation:** [KNAW](https://www.knaw.nl/)
+  - **Year:** 2020
+  - **Amount:** 15 k&euro;
+
+### Radboud Institute for Health Sciences Junior Researcher
+  - **Organisation:** [RIHS](https://www.radboudumc.nl/en/radboud-institute-for-health-sciences)
+  - **Year:** 2019
+  - **Amount:** 250 k&euro;
 
 ### Radboud Science Award
   - **Organisation:** [Radboud University](http://www.ru.nl/)

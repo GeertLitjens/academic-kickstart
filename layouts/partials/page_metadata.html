@@ -7,6 +7,7 @@
 
 <div class="article-metadata">
 
+  {{ if not (in (slice "media" "talk" "page") $page.Type) }}
   {{/* If `authors` is set and is not empty. */}}
   {{ if $page.Params.authors }}
   {{ $authorLen := len $page.Params.authors }}
@@ -17,7 +18,6 @@
   {{ end }}
   {{ end }}
 
-  {{ if not (in (slice "media" "talk" "page") $page.Type) }}
   <span class="article-date">
     {{ $date := $page.Lastmod.Format site.Params.date_format }}
     {{ if eq $page.Type "publication" }}

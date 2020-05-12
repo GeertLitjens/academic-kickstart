@@ -4,7 +4,6 @@ title = "Introduction to Deep Learning in Medical Imaging"
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
 date = 2018-09-16T09:30:00+02:00
-date_end = 2019-09-16T10:00:00+02:00
 all_day = false
 
 # Schedule page publish date (NOT talk date).
