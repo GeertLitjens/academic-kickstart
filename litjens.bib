@@ -1953,8 +1953,8 @@
 @String { _Journal_of_Dermatological_Science_                                                                                                                            = {J Dermatol Sci} }
 @String { _Journal_of_Dermatology_                                                                                                                                       = {J Dermatol} }
 @String { _Journal_of_Developmental_and_Behavioral_Pediatrics_                                                                                                           = {J Dev Behav Pediatr} }
-@String { _Journal_of_Diabetes_and_its_Complications_                                                                                                                    = {J Diabetes Complications} }
 @String { _Journal_of_Diabetes_and_Its_Complications_                                                                                                                    = {J Diabetes Complications} }
+@String { _Journal_of_Diabetes_and_its_Complications_                                                                                                                    = {J Diabetes Complications} }
 @String { _Journal_of_Diarrhoeal_Diseases_Research_                                                                                                                      = {J Diarrhoeal Dis Res} }
 @String { _Journal_of_Digital_Imaging_                                                                                                                                   = {J Digit Imaging} }
 @String { _Journal_of_Drug_Education_                                                                                                                                    = {J Drug Educ} }
@@ -5883,20 +5883,6 @@ Conclusions: A unique dataset of annotated, whole-slide digital histopathology i
   url       = {https://openreview.net/forum?id=BkxJkgSlx4},
 }
 
-@Article{Bult19b,
-  author      = {{Bulten}, Wouter and {Pinckaers}, Hans and {van Boven}, Hester and {Vink}, Robert and {de Bel}, Thomas and {van Ginneken}, Bram and {van der Laak}, Jeroen and {Hulsbergen-van de Kaa}, Christina and {Litjens}, Geert},
-  title       = {Automated Gleason Grading of Prostate Biopsies using Deep Learning},
-  journal     = {arXiv:1907.07980},
-  year        = {2019},
-  abstract    = {The Gleason score is the most important prognostic marker for prostate cancer patients but suffers from significant inter-observer variability. We developed a fully automated deep learning system to grade prostate biopsies. The system was developed using 5834 biopsies from 1243 patients. A semi-automatic labeling technique was used to circumvent the need for full manual annotation by pathologists. The developed system achieved a high agreement with the reference standard. In a separate observer experiment, the deep learning system outperformed 10 out of 15 pathologists. The system has the potential to improve prostate cancer prognostics by acting as a first or second reader.},
-  date        = {2019-07-18},
-  eprint      = {arXiv:1907.07980},
-  eprintclass = {eess.IV},
-  eprinttype  = {arXiv},
-  optnote     = {DIAG},
-  url         = {https://arxiv.org/abs/1907.07980},
-}
-
 @Article{Litj19,
   author          = {Litjens, Geert and Ciompi, Francesco and Wolterink, Jelmer M and de Vos, Bob D and Leiner, Tim and Teuwen, Jonas and Išgum, Ivana},
   title           = {State-of-the-Art Deep Learning in Cardiovascular Image Analysis.},
@@ -5999,17 +5985,6 @@ Conclusions: A unique dataset of annotated, whole-slide digital histopathology i
   pmid = {31926805},
 }
 
-@article{Bult20a,
-    title	= {Artificial Intelligence Assistance Significantly Improves Gleason Grading of Prostate Biopsies by Pathologists},
-    author	= {Wouter Bulten and Maschenka Balkenhol and Jean-Jo\"{e}l Awoumou Belinga and Am\'{e}rico Brilhante and Asl\i{} \c{C}ak\i{}r and Xavier Farr\'{e} and Katerina Geronatsiou and Vincent Molini\'{e} and Guilherme Pereira and Paromita Roy and G\"{u}nter Saile and Paulo Salles and Ewout Schaafsma and Jo\"{e}lle Tschui and Anne-Marie Vos and Hester van Boven and Robert Vink and Jeroen van der Laak and Christina Hulsbergen-van de Kaa and Geert Litjens},
-    year	= {2020},
-	url		= {https://arxiv.org/abs/2002.04500},
-	journal	= {arXiv:2002.04500},
-    eprint	= {2002.04500},
-	file 	= {:pdf/Bult20a.pdf:PDF},
-	optnote = {DIAG},
-}
-
 @article{Band19a,
   author = {B\'{a}ndi, P. and Balkenhol, Maschenka and van Ginneken, Bram and van der Laak, Jeroen and Litjens, Geert},
   title = {Resolution-agnostic tissue segmentation in whole-slide histopathology images with convolutional neural networks},
@@ -6025,6 +6000,131 @@ Conclusions: A unique dataset of annotated, whole-slide digital histopathology i
   optnote = {DIAG, RADIOLOGY},
   pmid = {31871843},
   year = {2019},
+}
+
+@Article{Bult20a,
+  author   = {Bulten, Wouter and Balkenhol, Maschenka and Belinga, Jean-Jo\"{e}l Awoumou and Brilhante, Am\'{e}rico and \c{C}ak\i{}r, Asl\i{} and Egevad, Lars and Eklund, Martin and Farr\'{e}, Xavier and Geronatsiou, Katerina and Molini\'{e}, Vincent and Pereira, Guilherme and Roy, Paromita and Saile, G\"{u}nter and Salles, Paulo and Schaafsma, Ewout and Tschui, Jo\"{e}lle and Vos, Anne-Marie and Delahunt, Brett and Samaratunga, Hemamali and Grignon, David J. and Evans, Andrew J. and Berney, Daniel M. and Pan, Chin-Chen and Kristiansen, Glen and Kench, James G. and Oxley, Jon and Leite, Katia R. M. and McKenney, Jesse K. and Humphrey, Peter A. and Fine, Samson W. and Tsuzuki, Toyonori and Varma, Murali and Zhou, Ming and Comperat, Eva and Bostwick, David G. and Iczkowski, Kenneth A. and Magi-Galluzzi, Cristina and Srigley, John R. and Takahashi, Hiroyuki and van der Kwast, Theo and van Boven, Hester and Vink, Robert and van der Laak, Jeroen and Hulsbergen-van der Kaa, Christina and Litjens, Geert},
+  title    = {Artificial Intelligence Assistance Significantly Improves Gleason Grading of Prostate Biopsies by Pathologists},
+  journal  = MODP,
+  year     = {2020},
+  month    = aug,
+  abstract = {The Gleason score is the most important prognostic marker for prostate cancer patients, but it suffers from significant observer variability. Artificial intelligence (AI) systems based on deep learning can achieve pathologist-level performance at Gleason grading. However, the performance of such systems can degrade in the presence of artifacts, foreign tissue, or other anomalies. Pathologists integrating their expertise with feedback from an AI system could result in a synergy that outperforms both the individual pathologist and the system. Despite the hype around AI assistance, existing literature on this topic within the pathology domain is limited. We investigated the value of AI assistance for grading prostate biopsies. A panel of 14 observers graded 160 biopsies with and without AI assistance. Using AI, the agreement of the panel with an expert reference standard increased significantly (quadratically weighted Cohen's kappa, 0.799 vs. 0.872; p = 0.019). On an external validation set of 87 cases, the panel showed a significant increase in agreement with a panel of international experts in prostate pathology (quadratically weighted Cohen's kappa, 0.733 vs. 0.786; p = 0.003). In both experiments, on a group-level, AI-assisted pathologists outperformed the unassisted pathologists and the standalone AI system. Our results show the potential of AI systems for Gleason grading, but more importantly, show the benefits of pathologist-AI synergy.},
+  doi      = {10.1038/s41379-020-0640-y},
+  file     = {:pdf/Bult20a.pdf:PDF},
+  optnote  = {DIAG},
+  pmid     = {32759979},
+  url      = {https://doi.org/10.1038/s41379-020-0640-y},
+}
+
+@Article{Swid20c,
+  author   = {Swiderska-Chadaj, Zaneta and Hebeda, Konnie M. and van den Brand, Michiel and Litjens, Geert},
+  title    = {Artificial intelligence to detect MYC translocation in slides of diffuse large B-cell lymphoma},
+  journal  = VIRA,
+  year     = {2020},
+  abstract = {In patients with suspected lymphoma, the tissue biopsy provides lymphoma confirmation, classification, and prognostic factors, including genetic changes. We developed a deep learning algorithm to detect MYC rearrangement in scanned histological slides of diffuse large B-cell lymphoma. The H&E-stained slides of 287 cases from 11 hospitals were used for training and evaluation. The overall sensitivity to detect MYC rearrangement was 0.93 and the specificity 0.52, showing that prediction of MYC translocation based on morphology alone was possible in 93% of MYC-rearranged cases. This would allow a simple and fast prescreening, saving approximately 34% of genetic tests with the current algorithm.},
+  doi      = {https://doi.org/10.1007/s00428-020-02931-4},
+  file     = {Swid20c.pdf:pdf\\Swid20c.pdf:PDF},
+  optnote  = {DIAG},
+}
+
+@Article{Swid20b,
+  author   = {Swiderska-Chadaj, Zaneta and de Bel, Thomas and Blanchet, Lionel and Baidoshvili, Alexi and Vossen, Dirk and van der Laak, Jeroen and Litjens, Geert},
+  title    = {Impact of rescanning and normalization on convolutional neural network performance in multi-center, whole-slide classification of prostate cancer},
+  journal  = SCIREP,
+  year     = {2020},
+  volume   = {10},
+  pages    = {14398},
+  month    = sep,
+  abstract = {Algorithms can improve the objectivity and efficiency of histopathologic slide analysis. In this paper, we investigated the impact of scanning systems (scanners) and cycle-GAN-based normalization on algorithm performance, by comparing different deep learning models to automatically detect prostate cancer in whole-slide images. Specifically, we compare U-Net, DenseNet and EfficientNet. Models were developed on a multi-center cohort with 582 WSIs and subsequently evaluated on two independent test sets including 85 and 50 WSIs, respectively, to show the robustness of the proposed method to differing staining protocols and scanner types. We also investigated the application of normalization as a pre-processing step by two techniques, the whole-slide image color standardizer (WSICS) algorithm, and a cycle-GAN based method. For the two independent datasets we obtained an AUC of 0.92 and 0.83 respectively. After rescanning the AUC improves to 0.91/0.88 and after style normalization to 0.98/0.97. In the future our algorithm could be used to automatically pre-screen prostate biopsies to alleviate the workload of pathologists.},
+  doi      = {10.1038/s41598-020-71420-0},
+  file     = {Swid20b.pdf:pdf\\Swid20b.pdf:PDF},
+  issue    = {1},
+  optnote  = {DIAG},
+  pmid     = {32873856},
+}
+
+@Article{Pinc20,
+  author   = {Pinckaers, Hans and van Ginneken, Bram and Litjens, Geert},
+  title    = {Streaming convolutional neural networks for end-to-end learning with multi-megapixel images},
+  journal  = TPAMI,
+  year     = {2020},
+  month    = aug,
+  abstract = {Due to memory constraints on current hardware, most convolution neural networks (CNN) are trained on sub-megapixel images. For example, most popular datasets in computer vision contain images much less than a megapixel in size (0.09MP for ImageNet and 0.001MP for CIFAR-10). In some domains such as medical imaging, multi-megapixel images are needed to identify the presence of disease accurately. We propose a novel method to directly train CNNs using any input image size end-to-end. This method exploits the locality of most operations in modern CNNs by performing the forward and backward pass on smaller tiles of the image. In this work, we show a proof of concept using images of up to 66-megapixels (8192x8192), saving approximately 50GB of memory per image. Using two public challenge datasets, we demonstrate that CNNs can learn to extract relevant information from these large images and benefit from increasing resolution. We improved the area under the receiver-operating characteristic curve from 0.580 (4MP) to 0.706 (66MP) for metastasis detection in breast cancer (CAMELYON17). We also obtained a Spearman correlation metric approaching state-of-the-art performance on the TUPAC16 dataset, from 0.485 (1MP) to 0.570 (16MP). The code to reproduce a subset of the experiments is available at https://github.com/DIAGNijmegen/StreamingCNN.},
+  doi      = {10.1109/TPAMI.2020.3019563},
+  file     = {Pinc20.pdf:pdf\\Pinc20.pdf:PDF},
+  optnote  = {DIAG, INPRESS},
+  pmid     = {32845835},
+}
+
+@Article{Leen20,
+  author          = {van Leenders, Geert J L H and van der Kwast, Theodorus H and Grignon, David J and Evans, Andrew J and Kristiansen, Glen and Kweldam, Charlotte F and Litjens, Geert and McKenney, Jesse K and Melamed, Jonathan and Mottet, Nicholas and Paner, Gladell P and Samaratunga, Hemamali and Schoots, Ivo G and Simko, Jeffry P and Tsuzuki, Toyonori and Varma, Murali and Warren, Anne Y and Wheeler, Thomas M and Williamson, Sean R and Iczkowski, Kenneth A and ISUP Grading Workshop Panel Members},
+  title           = {The 2019 International Society of Urological Pathology (ISUP) Consensus Conference on Grading of Prostatic Carcinoma.},
+  journal         = AJSP,
+  year            = {2020},
+  volume          = {44},
+  pages           = {e87--e99},
+  month           = aug,
+  issn            = {1532-0979},
+  __markedentry   = {[geert:6]},
+  abstract        = {Five years after the last prostatic carcinoma grading consensus conference of the International Society of Urological Pathology (ISUP), accrual of new data and modification of clinical practice require an update of current pathologic grading guidelines. This manuscript summarizes the proceedings of the ISUP consensus meeting for grading of prostatic carcinoma held in September 2019, in Nice, France. Topics brought to consensus included the following: (1) approaches to reporting of Gleason patterns 4 and 5 quantities, and minor/tertiary patterns, (2) an agreement to report the presence of invasive cribriform carcinoma, (3) an agreement to incorporate intraductal carcinoma into grading, and (4) individual versus aggregate grading of systematic and multiparametric magnetic resonance imaging-targeted biopsies. Finally, developments in the field of artificial intelligence in the grading of prostatic carcinoma and future research perspectives were discussed.},
+  citation-subset = {IM},
+  completed       = {2020-10-19},
+  country         = {United States},
+  doi             = {10.1097/PAS.0000000000001497},
+  issn-linking    = {0147-5185},
+  issue           = {8},
+  journaltitle    = AJSP,
+  keywords        = {Biopsy; Carcinoma, pathology; Carcinoma, Ductal, pathology; Consensus; Humans; Male; Neoplasm Grading, standards; Neoplasm Invasiveness; Pathology, Clinical, standards; Predictive Value of Tests; Prostatic Neoplasms, pathology; Urology, standards},
+  nlm-id          = {7707904},
+  optnote         = {DIAG},
+  owner           = {NLM},
+  pmc             = {PMC7382533},
+  pmid            = {32459716},
+  pubmodel        = {Print},
+  pubstatus       = {ppublish},
+  revised         = {2020-10-19},
+}
+
+@Inproceedings{Linm20,
+  author        = {Linmans, Jasper and van der Laak, Jeroen and Litjens, Geert},
+  title         = {Efficient Out-of-Distribution Detection in Digital Pathology Using Multi-Head Convolutional Neural Networks},
+  booktitle     = MIDL,
+  year          = {2020},
+  pages         = {465--478},
+  organization  = {PMLR},
+  __markedentry = {[geert:]},
+  abstract      = {Successful clinical implementation of deep learning in medical imaging depends, in part, on the reliability of the predictions. Specifically, the system should be accurate for classes seen during training while providing calibrated estimates of uncertainty for abnormalities and unseen classes. To efficiently estimate predictive uncertainty, we propose the use of multi-head CNNs (M-heads). We compare its performance to related and more prevalent approaches, such as deep ensembles, on the task of out-of-distribution (OOD) detection. To this end, we evaluate models trained to discriminate normal lymph node tissue from breast cancer metastases, on lymph nodes containing lymphoma. We show the ability to discriminate between in-distribution lymph node tissue and lymphoma by evaluating the AUROC based on the uncertainty signal. Here, the best performing multi-head CNN (91.7) outperforms both Monte Carlo dropout (88.3) and deep ensembles (86.8). Furthermore, we show that the meta-loss function of M-heads improves OOD detection in terms of AUROC.},
+  optnote       = {DIAG},
+  url           = {https://openreview.net/forum?id=hRwB2BTRNu},
+}
+
+@Inproceedings{Swid20,
+  author        = {Swiderska-Chadaj, Zaneta and Hebeda, Konnie and van den Brand, Michiel and Litjens, Geert},
+  title         = {Predicting MYC translocation in HE specimens of diffuse large B-cell lymphoma through deep learning},
+  booktitle     = MI,
+  year          = {2020},
+  volume        = {11320},
+  series        = {SPIE},
+  pages         = {1132010},
+  organization  = {International Society for Optics and Photonics},
+  __markedentry = {[geert:6]},
+  abstract      = {Diffuse large B-cell lymphoma (DLBCL) is the most common type of B-cell lymphoma. It is characterized by a heterogeneous morphology, genetic changes and clinical behavior. A small specific subgroup of DLBCL, harbouring a MYC gene translocation is associated with worse patient prognosis and outcome. Typically, the MYC translocation is assessed with a molecular test (FISH), that is expensive and time-consuming. Our hypothesis is that genetic changes, such as translocations could be visible as changes in the morphology of an HE-stained specimen. However, it has not proven possible to use morphological criteria for the detection of a MYC translocation in the diagnostic setting due to lack of specificity.
+In this paper, we apply a deep learning model to automate detection of the MYC translocations in DLBCL based on HE-stained specimens. The proposed method works at the whole-slide level and was developed based on a multicenter data cohort of 91 patients. All specimens were stained with HE, and the MYC translocation was confirmed using fluorescence in situ hybridization (FISH). The system was evaluated on an additional 66 patients, and obtained AUROC of 0.83 and accuracy of 0.77. The proposed method presents proof of a concept giving insights in the applicability of deep learning methods for detection of a genetic changes in DLBCL. In future work we will evaluate our algorithm for automatic pre-screen of DLBCL specimens to obviate FISH analysis in a large number of patients.},
+  doi           = {10.1117/12.2549650},
+  optnote       = {DIAG},
+}
+
+@Inproceedings{Eeke20a,
+  author        = {van Eekelen, Leander and Pinckaers, Hans and Hebeda, Konnie M and Litjens, Geert},
+  title         = {Multi-class semantic cell segmentation and classification of aplasia in bone marrow histology images},
+  booktitle     = MI,
+  year          = {2020},
+  volume        = {11320},
+  series        = {SPIE},
+  pages         = {113200B},
+  organization  = {International Society for Optics and Photonics},
+  __markedentry = {[geert:6]},
+  optnote       = {DIAG},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
