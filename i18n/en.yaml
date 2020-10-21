@@ -185,10 +185,13 @@
   translation: Book section
 
 - id: pub_thesis
-  translation: Thesis
+  translation: PhD Thesis
 
 - id: pub_patent
   translation: Patent
+
+- id: pub_mscthesis
+  translation: MSc Thesis
 
 # Project details
 

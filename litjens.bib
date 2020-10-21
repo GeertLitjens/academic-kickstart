@@ -2670,6 +2670,7 @@
 @String { _Natural_Product_Reports_                                                                                                                                      = {Nat Prod Rep} }
 @String { _Natural_Toxins_                                                                                                                                               = {Nat Toxins} }
 @String { _Nature_                                                                                                                                                       = {Nature} }
+@String { _Nature_Biomedical_Engineering_                                                                                                                                = {Nat Biomed Eng} }
 @String { _Nature_Biotechnology_                                                                                                                                         = {Nat Biotechnol} }
 @String { _Nature_Communications_                                                                                                                                        = {Nat Commun} }
 @String { _Nature_Genetics_                                                                                                                                              = {Nat Genet} }
@@ -4405,6 +4406,7 @@
 @String{NATSCIREP         = _Nature_Scientific_Reports_}
 @String{Nature            = _Nature_}
 @String{NATUREBT          = _Nature_Biotechnology_}
+@String{NBE               = _Nature_Biomedical_Engineering_}
 @String{NDT               = _Nephrology_Dialysis_Transplantation_}
 @String{NEJM              = _New_England_Journal_of_Medicine_}
 @String{Neoplasia         = _Neoplasia_}
@@ -6065,7 +6067,7 @@ Conclusions: A unique dataset of annotated, whole-slide digital histopathology i
   pages           = {e87--e99},
   month           = aug,
   issn            = {1532-0979},
-  __markedentry   = {[geert:6]},
+  __markedentry   = {[geert:]},
   abstract        = {Five years after the last prostatic carcinoma grading consensus conference of the International Society of Urological Pathology (ISUP), accrual of new data and modification of clinical practice require an update of current pathologic grading guidelines. This manuscript summarizes the proceedings of the ISUP consensus meeting for grading of prostatic carcinoma held in September 2019, in Nice, France. Topics brought to consensus included the following: (1) approaches to reporting of Gleason patterns 4 and 5 quantities, and minor/tertiary patterns, (2) an agreement to report the presence of invasive cribriform carcinoma, (3) an agreement to incorporate intraductal carcinoma into grading, and (4) individual versus aggregate grading of systematic and multiparametric magnetic resonance imaging-targeted biopsies. Finally, developments in the field of artificial intelligence in the grading of prostatic carcinoma and future research perspectives were discussed.},
   citation-subset = {IM},
   completed       = {2020-10-19},
@@ -6086,16 +6088,15 @@ Conclusions: A unique dataset of annotated, whole-slide digital histopathology i
 }
 
 @Inproceedings{Linm20,
-  author        = {Linmans, Jasper and van der Laak, Jeroen and Litjens, Geert},
-  title         = {Efficient Out-of-Distribution Detection in Digital Pathology Using Multi-Head Convolutional Neural Networks},
-  booktitle     = MIDL,
-  year          = {2020},
-  pages         = {465--478},
-  organization  = {PMLR},
-  __markedentry = {[geert:]},
-  abstract      = {Successful clinical implementation of deep learning in medical imaging depends, in part, on the reliability of the predictions. Specifically, the system should be accurate for classes seen during training while providing calibrated estimates of uncertainty for abnormalities and unseen classes. To efficiently estimate predictive uncertainty, we propose the use of multi-head CNNs (M-heads). We compare its performance to related and more prevalent approaches, such as deep ensembles, on the task of out-of-distribution (OOD) detection. To this end, we evaluate models trained to discriminate normal lymph node tissue from breast cancer metastases, on lymph nodes containing lymphoma. We show the ability to discriminate between in-distribution lymph node tissue and lymphoma by evaluating the AUROC based on the uncertainty signal. Here, the best performing multi-head CNN (91.7) outperforms both Monte Carlo dropout (88.3) and deep ensembles (86.8). Furthermore, we show that the meta-loss function of M-heads improves OOD detection in terms of AUROC.},
-  optnote       = {DIAG},
-  url           = {https://openreview.net/forum?id=hRwB2BTRNu},
+  author       = {Linmans, Jasper and van der Laak, Jeroen and Litjens, Geert},
+  title        = {Efficient Out-of-Distribution Detection in Digital Pathology Using Multi-Head Convolutional Neural Networks},
+  booktitle    = MIDL,
+  year         = {2020},
+  pages        = {465--478},
+  organization = {PMLR},
+  abstract     = {Successful clinical implementation of deep learning in medical imaging depends, in part, on the reliability of the predictions. Specifically, the system should be accurate for classes seen during training while providing calibrated estimates of uncertainty for abnormalities and unseen classes. To efficiently estimate predictive uncertainty, we propose the use of multi-head CNNs (M-heads). We compare its performance to related and more prevalent approaches, such as deep ensembles, on the task of out-of-distribution (OOD) detection. To this end, we evaluate models trained to discriminate normal lymph node tissue from breast cancer metastases, on lymph nodes containing lymphoma. We show the ability to discriminate between in-distribution lymph node tissue and lymphoma by evaluating the AUROC based on the uncertainty signal. Here, the best performing multi-head CNN (91.7) outperforms both Monte Carlo dropout (88.3) and deep ensembles (86.8). Furthermore, we show that the meta-loss function of M-heads improves OOD detection in terms of AUROC.},
+  optnote      = {DIAG},
+  url          = {https://openreview.net/forum?id=hRwB2BTRNu},
 }
 
 @Inproceedings{Swid20,
@@ -6107,7 +6108,7 @@ Conclusions: A unique dataset of annotated, whole-slide digital histopathology i
   series        = {SPIE},
   pages         = {1132010},
   organization  = {International Society for Optics and Photonics},
-  __markedentry = {[geert:6]},
+  __markedentry = {[geert:]},
   abstract      = {Diffuse large B-cell lymphoma (DLBCL) is the most common type of B-cell lymphoma. It is characterized by a heterogeneous morphology, genetic changes and clinical behavior. A small specific subgroup of DLBCL, harbouring a MYC gene translocation is associated with worse patient prognosis and outcome. Typically, the MYC translocation is assessed with a molecular test (FISH), that is expensive and time-consuming. Our hypothesis is that genetic changes, such as translocations could be visible as changes in the morphology of an HE-stained specimen. However, it has not proven possible to use morphological criteria for the detection of a MYC translocation in the diagnostic setting due to lack of specificity.
 In this paper, we apply a deep learning model to automate detection of the MYC translocations in DLBCL based on HE-stained specimens. The proposed method works at the whole-slide level and was developed based on a multicenter data cohort of 91 patients. All specimens were stained with HE, and the MYC translocation was confirmed using fluorescence in situ hybridization (FISH). The system was evaluated on an additional 66 patients, and obtained AUROC of 0.83 and accuracy of 0.77. The proposed method presents proof of a concept giving insights in the applicability of deep learning methods for detection of a genetic changes in DLBCL. In future work we will evaluate our algorithm for automatic pre-screen of DLBCL specimens to obviate FISH analysis in a large number of patients.},
   doi           = {10.1117/12.2549650},
@@ -6123,8 +6124,61 @@ In this paper, we apply a deep learning model to automate detection of the MYC t
   series        = {SPIE},
   pages         = {113200B},
   organization  = {International Society for Optics and Photonics},
-  __markedentry = {[geert:6]},
+  __markedentry = {[geert:]},
   optnote       = {DIAG},
+}
+
+@Article{Deba19,
+  author   = {Debats, Oscar A. and Litjens, Geert J. S. and Huisman, Henkjan J.},
+  title    = {Lymph node detection in MR Lymphography: false positive reduction using multi-view convolutional neural networks},
+  journal  = PRJ,
+  year     = {2019},
+  volume   = {7},
+  pages    = {e8052},
+  month    = {11},
+  abstract = {To investigate whether multi-view convolutional neural networks can improve a fully automated lymph node detection system for pelvic MR Lymphography (MRL) images of patients with prostate cancer. A fully automated computer-aided detection (CAD) system had been previously developed to detect lymph nodes in MRL studies. The CAD system was extended with three types of 2D multi-view convolutional neural networks (CNN) aiming to reduce false positives (FP). A 2D multi-view CNN is an efficient approximation of a 3D CNN, and three types were evaluated: a 1-view, 3-view, and 9-view 2D CNN. The three deep learning CNN architectures were trained and configured on retrospective data of 240 prostate cancer patients that received MRL images as the standard of care between January 2008 and April 2010. The MRL used ferumoxtran-10 as a contrast agent and comprised at least two imaging sequences: a 3D T1-weighted and a 3D T2*-weighted sequence. A total of 5089 lymph nodes were annotated by two expert readers, reading in consensus. A first experiment compared the performance with and without CNNs and a second experiment compared the individual contribution of the 1-view, 3-view, or 9-view architecture to the performance. The performances were visually compared using free-receiver operating characteristic (FROC) analysis and statistically compared using partial area under the FROC curve analysis. Training and analysis were performed using bootstrapped FROC and 5-fold cross-validation. Adding multi-view CNNs significantly (  < 0.01) reduced false positive detections. The 3-view and 9-view CNN outperformed (  < 0.01) the 1-view CNN, reducing FP from 20.6 to 7.8/image at 80% sensitivity. Multi-view convolutional neural networks significantly reduce false positives in a lymph node detection system for MRL images, and three orthogonal views are sufficient. At the achieved level of performance, CAD for MRL may help speed up finding lymph nodes and assessing them for potential metastatic involvement.},
+  doi      = {10.7717/peerj.8052},
+  file     = {:pdf/Deba19.pdf:PDF},
+  optnote  = {DIAG, RADIOLOGY},
+  pmid     = {31772836},
+}
+
+@Conference{Herm17,
+  author    = {Hermsen, Meyke and de Bel, Thomas and van de Warenburg, Milly and Knuiman, Jimmy and Steenbergen, Eric and Litjens, Geert and Smeets, Bart and Hilbrands, Luuk and van der Laak, Jeroen},
+  title     = {Automatic segmentation of histopathological slides from renal allograft biopsies using artificial intelligence},
+  booktitle = {Dutch Federation of Nephrology (NfN) Fall Symposium},
+  year      = {2017},
+  abstract  = {Objective: Histopathological analysis of renal biopsies depends on the identification and assessment of specific histological structures. Both in research and routine diagnostics, this analysis can be time-consuming and suffer from observer variability. Recently, it has been shown that the combination of high resolution whole slide imaging (WSI) and artificial intelligence yields powerful new avenues for tissue section analysis. This study aims to develop an algorithm based on a specific type of artificial intelligence (a convolutional neural network; CNN) to fully automatically segment structures in cortical fragments of renal allograft biopsies. Automated segmentation of renal tissue allows an unbiased, reproducible computation of morphological characteristics of important structures. This in turn can be used as support in diagnostic quantitative measure-based decisions as for instance is employed in the Banff-classification. Methods: The neural network was trained using a set of Periodic acid-Schiff (PAS) stained slides (n=26) of renal allograft biopsies. WSIs were produced using a 3DHISTECH Pannoramic 250 Flash II digital slide scanner with a 20x objective lens. We used a U-net architecture CNN, which has been proven to be specifically useful in biomedical image segmentation tasks. Training was based on exhaustive annotations in one to two randomly selected rectangular areas per WSI (size approximately 3000 x 4000 pixels; comparable to one 200x microscopic field of view). A total of nine classes were annotated: Glomeruli, Sclerotic glomeruli, Proximal tubuli, Distal tubuli, Atrophic tubuli, Undefined tubuli, Arteries, Capsule and Interstitium. All annotations were revised by a pathology resident (JK), under consultation of an experienced nephropathologist (ES). Our CNN was evaluated using the Dice coefficient for each individual class. This coefficient expresses the quality of the segmentation on a scale ranging from 0-1, taking into account both recall and precision. Because of the limited amount of annotations for certain classes, cross-validation was applied. Results: We found the following Dice coefficients for the different histological segments: Glomeruli: 0.89, Sclerotic glomeruli: 0.43, Proximal tubuli: 0.88, Distal tubuli: 0.77, Atrophic tubuli: 0.32, Undefined tubuli: 0.11, Arteries: 0.71, Capsule: 0.47 and Interstitium: 0.85. Conclusion: This study shows that segmentation of WSIs of PAS-stained renal allograft biopsies using a CNN is feasible. Segmentation of several important classes (Glomeruli, Interstitium, Arteries, Proximal-, and Distal tubuli) was highly accurate. CNNs learn from being exposed to many example images. The most probable reason for the lower performance for the other classes are the relatively low number of annotated regions for these classes, combined with a high level of variability inherently present in these tissue structures. To our knowledge, this is the first time artificial intelligence is being deployed in a nine-class segmentation task in the field of kidney transplant histopathology. Results of this study show the promising potential of CNNs in obtaining quantitative, spatial and morphometric information from renal tissue in an objective, reproducible, high-scale fashion supporting diagnostic decisions based on quantitative measures.},
+  file      = {Herm17.pdf:pdf\\Herm17.pdf:PDF},
+  optnote   = {DIAG},
+}
+
+@Article{Laak19,
+  author  = {van der Laak, Jeroen and Ciompi, Francesco and Litjens, Geert},
+  title   = {No pixel-level annotations needed},
+  journal = NBE,
+  year    = {2019},
+  volume  = {3},
+  pages   = {855-856},
+  month   = {10},
+  doi     = {10.1038/s41551-019-0472-6},
+  file    = {Laak19.pdf:pdf\\Laak19.pdf:PDF},
+  gscites = {2},
+  gsid    = {13408433721865759246},
+  issue   = {11},
+  optnote = {DIAG, RADIOLOGY},
+  pmid    = {31624355},
+  url     = {https://doi.org/10.1038/s41551-019-0472-6},
+}
+
+@Mastersthesis{Litj10b,
+  author   = {Geert Litjens},
+  title    = {Pharmacokinetic modeling in breast cancer MRI},
+  school   = {Eindhoven University of Technology},
+  year     = {2009},
+  abstract = {Breast cancer is a disease which impacts the lives of thousands of people. In the entire world over half a million people die due to breast cancer every year, mostly women. However, when breast cancer is detected in the early stages of disease ?ve-year-survival rate approaches 100%. So, it is very important to detect breast cancer as early as possible. That is why in most of modern Western society screening programs for breast cancer have been developed. Most of these screening programs focus on x-ray mammography. However, women who have an increased risk to get breast cancer these screening programs are not adequate. These women usually develop breast cancer at a younger age and x-ray mammography for those women has a low sensitivity. For these cases, and inconclusive ?ndings in x-ray mammography in other women, dynamic contrast enhance (DCE) MRI is used. In DCE MRI a contrast agent is used which takes advantage of the fact that tumor vasculature is leaky and sloppy, thus the contrast agent tends to accumulate in the tumor, leading to increased signal intensity in T1-weighted images. Due to the fact that we have a time range of images it is possible to look at kinetic behavior. However, as kinetic curves have a large inter and intra patient variability and variability depending on the imaging site the analysis of these curves is not straightforward. Pharmacokinetic modeling could be an answer to those problems as it can be used to obtain lesion-speci?c physiological parameters. To use pharmacokinetic modeling however we need high temporal resolution data, which is not readily available. The University of Chicago Medical Center obtained several high temporal resolution data sets for the initial part of the kinetic enhancement curve in addition to the regular low temporal clinical scans. These data sets were the basis for this research. When analyzing such data several factors play an important role. The ?rst of these being the extraction of the signal-vs.-time curves from the data sets. In this report we used a small graphical user interface to extract the data. The low and high temporal resolution images were obtained in different orientations, which was a problem we also needed to solve. The second step after extraction of the signal-vs.-time-curves was the conversion of the signal intensity to contrast agent concentration. In literature there were several methods that were used to accomplish this, but all were based on the use of a gradient recalled echo signal model. We ?rst investigated the assumption that we can neglect T2* effects, which we concluded was allowed. To estimate concentration the tissue T1 at time 0 has to been known. As we had no additional T1 measurements, we used a reference tissue approach to estimate T1. We investigated if the simpli?cations often used in this method were allowed and we concluded that it was better to use the full model. The last part of the conversion to concentration is the estimation of uncertainty in the concentration curves, which in itself contains several uncertainties. We derived an algebraic expression for these uncertainties using a Taylor expansion of concentration uncertainty. On average the uncertainty levels are around 10% of the concentration. The third step was choosing a pharmacokinetic model, we inspected a total of four models, the standard and extended Tofts models, the shutter speed model and the Brix model. We ?rst assessed the ability of each model to ?nd correct minima using a forward-backward simulation approach. We then simulated data that has the same temporal and uncertainty characteristics as real clinical data and used the same forward-backward approach to estimate model performance. We concluded that for data with those speci?c characteristics only the standard Tofts model performed adequately. After that we started investigating the data requirements for all models and we could see that for all models except the standard Tofts model data requirements on especially temporal resolution are high. Lastly we did an investigation in the errors introduced by assuming that the underlying physiological processes are more simplistic, which is what we do when we use the standard Tofts model. The fourth step was ?nding the arterial input function, which is used as an input for the pharmacokinetic model. In literature there are several methods, we discussed three: the use of a standardized input function (population averaged or mathematical), the use of a single reference tissue approach and the use of a multiple refernce tissue approach. We found that errors caused by using a population averaged input function can be quite large as deviations from the true local input functions are seen directly in the pharmacokinetic parameters. The single reference tissue approach is another way to estimate the input function. We found that when we know the exact pharmacokinetic parameters of the reference tissue the errors are considerably lower than in the use of a standardized AIF. When pharmacokinetic parameters of the reference tissue are wrong however we can still induce large errors in parameter estimates. The third option was the use of a multiple reference tissue approach, which gave the best results. If multiple reference tissue are available within the data set this option should be used. The last step is to put together the pieces from the previous steps and use that to analyze the clinical data. We were able to use 14 patient data sets. Although a small number, we were able to see that there seems to be a relation between malignancy and Ktrans values. Benign tissues seemed to have lower Ktrans values when compared to malignant tissues. Another question was if we were able to cluster different cancer types according to pharmacokinetic parameters, but we have too little data to support that claim.},
+  file     = {:pdf/Litj10b.pdf:PDF},
+  optnote  = {DIAG},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

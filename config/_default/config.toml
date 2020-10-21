@@ -15,7 +15,6 @@ title = "Geert Litjens"
 # To display a copyright symbol, type `&copy;`.
 copyright = "&copy; 2019"
 
-theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
@@ -63,3 +62,9 @@ enableGitInfo = false
   category = "categories"
   publication_type = "publication_types"
   author = "authors"
+
+[module]
+  [[module.imports]]
+    path = "github.com/wowchemy/wowchemy-hugo-modules/wowchemy"
+  [[module.imports]]
+    path = "github.com/wowchemy/wowchemy-hugo-modules/netlify-cms-academic"

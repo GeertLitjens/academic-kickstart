@@ -6,6 +6,6 @@ authors: ["L. van Eekelen", "H. Pinckaers", "K. Hebeda", "G. Litjens"]
 publication_types: ["2"]
 abstract: ""
 featured: false
-publication = "*in: Medical Imaging, volume 11320 of the SPIE*"
+publication: "*Medical Imaging, volume 11320 of the SPIE*"
 ---
 
