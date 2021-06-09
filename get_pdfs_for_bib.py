@@ -1,21 +1,19 @@
 import os
-import requests
+import shutil
 
-base_url = 'https://rdwww.extern.umcn.nl/svn/literature/pdf/'
-base_folder = "C:\\Code\\source\\personal_site\\content\\publication"
-user, password = 'geert', '***REMOVED***'
+source = 'C:\\Users\\geert\\Documents\\literature\\pdf'
+destination = "C:\\Code\\source\\personal_site\\content\\publication"
 
-pub_list = os.listdir(base_folder)
+pub_list = os.listdir(destination)
 pub_list.remove("_index.md")
 
 for pub in pub_list:
     pub_key = pub.capitalize().replace("-", "")
-    pdf_url = base_url + pub_key + ".pdf"
-    out_path = os.path.join(base_folder, pub, pub + ".pdf")
+    pdf_path = os.path.join(source, pub_key + ".pdf")
+    out_path = os.path.join(destination, pub, pub + ".pdf")
     if not os.path.isfile(out_path):
-        resp = requests.get(pdf_url, auth=(user, password))
-        if resp.ok:
-            open(out_path, 'wb').write(resp.content)
+        if os.path.isfile(pdf_path):
+            shutil.copyfile(pdf_path, out_path)
             print("PDF found for " + pub)
         else:
             print("No PDF found for " + pub)
